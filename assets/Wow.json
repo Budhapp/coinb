@@ -1,0 +1,6487 @@
+{
+  "components": {
+    "00026913-2274-40b9-8f6d-3edb0066f188": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "f4a277b7-8f95-4549-875b-83c7d42ac321",
+        "71e12ff9-8c05-45f2-9357-8cd5d5d19e38",
+        "00026913-2274-40b9-8f6d-3edb0066f188"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "order": "2"
+          },
+          "type": "auto"
+        },
+        "text": {
+          "alignment": "center",
+          "color": "#0006"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Seasonal discounts",
+      "properties": {
+        "text": "Welcome to the ultimate collection of adorable and cuddly animal and character plush toys, perfect for hugging and playing with!"
+      },
+      "type": "text",
+      "uid": "00026913-2274-40b9-8f6d-3edb0066f188",
+      "visual_logic": [
+        {
+          "condition": {
+            "connections": {
+              "node_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              },
+              "node_1_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              }
+            },
+            "nodes": {
+              "node_0": {
+                "name": "Get page data",
+                "parameters": {
+                  "target": "Current Page Width"
+                },
+                "type": "inline-entry.GetPageData",
+                "uid": "node_0"
+              },
+              "node_1": {
+                "name": "<=",
+                "parameters": {
+                  "comparator": "<="
+                },
+                "type": "inline-node.Comparison",
+                "uid": "node_1"
+              },
+              "node_1_0": {
+                "name": 700,
+                "parameters": {
+                  "value": 700
+                },
+                "type": "inline-entry.Litteral",
+                "uid": "node_1_0"
+              }
+            }
+          },
+          "properties": {
+            "is_hidden": true
+          }
+        }
+      ]
+    },
+    "004cbb1c-ea4f-4639-a70b-b0e01a71e68f": {
+      "children": [
+        "03338d3f-b8ec-4613-b778-e7b0cbc023ff",
+        "ced3e19a-46e7-4cc8-b011-74fe7bc1c419",
+        "ee64b9a7-325d-4764-920f-4bc6c10acd42"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+        "b1ebcd64-5acf-4975-b302-6a7e4590ff67",
+        "8bbab257-8c5b-4957-a845-6f89fdfb95f8",
+        "3e6c2362-beb3-4747-bd4b-0947ec140bc2",
+        "87a7c506-94cb-4756-bf7b-8950076d85ab",
+        "f66d7c4d-49c2-4858-9005-ebebf95ccf69",
+        "004cbb1c-ea4f-4639-a70b-b0e01a71e68f"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "column_gap": {
+            "val": "5"
+          },
+          "direction": "row",
+          "distribution": "between"
+        },
+        "padding": {
+          "top": {
+            "val": "10"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "2",
+            "position": "flex-start"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Item amount",
+      "type": "box",
+      "uid": "004cbb1c-ea4f-4639-a70b-b0e01a71e68f"
+    },
+    "03338d3f-b8ec-4613-b778-e7b0cbc023ff": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+        "b1ebcd64-5acf-4975-b302-6a7e4590ff67",
+        "8bbab257-8c5b-4957-a845-6f89fdfb95f8",
+        "3e6c2362-beb3-4747-bd4b-0947ec140bc2",
+        "87a7c506-94cb-4756-bf7b-8950076d85ab",
+        "f66d7c4d-49c2-4858-9005-ebebf95ccf69",
+        "004cbb1c-ea4f-4639-a70b-b0e01a71e68f",
+        "03338d3f-b8ec-4613-b778-e7b0cbc023ff"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "@871f93b9-1985-4491-95a3-c64b92507aa1",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": ""
+          },
+          "min": {
+            "val": ""
+          },
+          "type": "fit"
+        },
+        "layout": {
+          "column_gap": {
+            "val": ""
+          },
+          "distribution": "center"
+        },
+        "padding": {
+          "bottom": {
+            "unit": "px",
+            "val": "3"
+          },
+          "left": {
+            "unit": "px",
+            "val": "5"
+          },
+          "right": {
+            "unit": "px",
+            "val": "5"
+          },
+          "top": {
+            "unit": "px",
+            "val": "3"
+          }
+        },
+        "position": {
+          "type": "auto"
+        },
+        "radius": {
+          "bottom_left": {
+            "unit": "px",
+            "val": "5"
+          },
+          "bottom_right": {
+            "unit": "px",
+            "val": "5"
+          },
+          "top_left": {
+            "unit": "px",
+            "val": "5"
+          },
+          "top_right": {
+            "unit": "px",
+            "val": "5"
+          }
+        },
+        "text": {
+          "alignment": "center"
+        },
+        "width": {
+          "fixed": {
+            "val": "10"
+          },
+          "min": {
+            "val": ""
+          },
+          "type": "fit"
+        }
+      },
+      "name": "+",
+      "properties": {
+        "text": "+"
+      },
+      "type": "text",
+      "uid": "03338d3f-b8ec-4613-b778-e7b0cbc023ff"
+    },
+    "058b0d84-d47b-49d6-b9ea-4bc3c4090252": {
+      "children": [
+        "b9200b83-e5d3-4faa-bdcf-e1269b6f6ebb",
+        "b65fa458-12c5-49cd-b193-b9ea60c17971"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "78b7174a-945b-4fc3-bb30-399fcb637a6d",
+        "058b0d84-d47b-49d6-b9ea-4bc3c4090252"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "column_gap": {
+            "val": "20"
+          },
+          "direction": "row",
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "right",
+      "type": "box",
+      "uid": "058b0d84-d47b-49d6-b9ea-4bc3c4090252"
+    },
+    "059d7ef7-41d5-4458-b9c1-76646a2c2bfa": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+        "b1ebcd64-5acf-4975-b302-6a7e4590ff67",
+        "adb3f941-d2ca-4a43-91ab-d0a457765b47",
+        "059d7ef7-41d5-4458-b9c1-76646a2c2bfa"
+      ],
+      "custom_styling": {
+        "background": {
+          "image": {
+            "src": "https://firebasestorage.googleapis.com/v0/b/budhapp-94298.appspot.com/o/public%2F494991dd-9a18-4ee1-b8a4-9c1e48a667f3%2F5fdec40d-ef00-4ca6-b894-56792664a6ce.png?alt=media&token=c7b97845-4c04-4e83-acb8-67e27bbdf2d4"
+          },
+          "type": "image"
+        },
+        "height": {
+          "min": {
+            "val": "30"
+          },
+          "type": "fit"
+        },
+        "position": {
+          "auto": {
+            "order": "2",
+            "position": "flex-start"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": "30"
+          },
+          "type": "fixed"
+        }
+      },
+      "logic": {
+        "c34d537d-59e5-4d69-a7dc-c6d71cfc9bcb": {
+          "connections": {
+            "c34d537d-59e5-4d69-a7dc-c6d71cfc9bcb_trigger": {
+              "success": {
+                "f1536f60-2fbb-4d5c-9da9-6a06237e9001": {
+                  "order": 0,
+                  "to": "f1536f60-2fbb-4d5c-9da9-6a06237e9001",
+                  "uid": "f1536f60-2fbb-4d5c-9da9-6a06237e9001"
+                }
+              }
+            }
+          },
+          "execution_order": 0,
+          "name": "On Click",
+          "nodes": {
+            "c34d537d-59e5-4d69-a7dc-c6d71cfc9bcb_trigger": {
+              "name": "On press",
+              "type": "trigger.onClick",
+              "uid": "c34d537d-59e5-4d69-a7dc-c6d71cfc9bcb_trigger"
+            },
+            "f1536f60-2fbb-4d5c-9da9-6a06237e9001": {
+              "name": "New Action",
+              "parameters": {
+                "target": "is_hidden",
+                "uid": "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+                "value": "true"
+              },
+              "type": "action.setComponentProperty",
+              "uid": "f1536f60-2fbb-4d5c-9da9-6a06237e9001"
+            }
+          },
+          "uid": "c34d537d-59e5-4d69-a7dc-c6d71cfc9bcb"
+        }
+      },
+      "name": "Close btn",
+      "type": "box",
+      "uid": "059d7ef7-41d5-4458-b9c1-76646a2c2bfa"
+    },
+    "07507be5-391f-43bc-8ca5-595b93278887": {
+      "children": [
+        "b98ec320-d6b1-4d69-9237-6766b608bc8e",
+        "240a1626-ad97-4db8-8452-5d5d960496ee"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "a1d90813-6ccd-4251-8493-788148a9bcc8",
+        "07507be5-391f-43bc-8ca5-595b93278887"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "order": "1",
+            "position": "center"
+          },
+          "flexible": "1",
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Left container",
+      "type": "box",
+      "uid": "07507be5-391f-43bc-8ca5-595b93278887"
+    },
+    "095bed35-1e52-44c7-9fec-771afb98a914": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "78b7174a-945b-4fc3-bb30-399fcb637a6d",
+        "57193cbd-dd8f-4539-8988-9c5b7abfa8bb",
+        "ddaa94b3-f382-4c0a-bfb3-360e904df746",
+        "095bed35-1e52-44c7-9fec-771afb98a914"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Exchange and return",
+      "properties": {
+        "text": "Exchange and return"
+      },
+      "type": "text",
+      "uid": "095bed35-1e52-44c7-9fec-771afb98a914",
+      "visual_logic": [
+        {
+          "condition": {
+            "connections": {
+              "node_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              },
+              "node_1_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              }
+            },
+            "nodes": {
+              "node_0": {
+                "name": "Get page data",
+                "parameters": {
+                  "target": "Current Page Width"
+                },
+                "type": "inline-entry.GetPageData",
+                "uid": "node_0"
+              },
+              "node_1": {
+                "name": "<=",
+                "parameters": {
+                  "comparator": "<="
+                },
+                "type": "inline-node.Comparison",
+                "uid": "node_1"
+              },
+              "node_1_0": {
+                "name": 1050,
+                "parameters": {
+                  "value": 1050
+                },
+                "type": "inline-entry.Litteral",
+                "uid": "node_1_0"
+              }
+            }
+          },
+          "properties": {
+            "is_hidden": true
+          }
+        }
+      ]
+    },
+    "0f909d39-7d89-4432-bdab-39b6c970d409": {
+      "children": [
+        "206a499d-4645-4ab3-b363-f8034cf3d981",
+        "4c2a01ac-968d-4fa0-900d-8e4266b59443"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "85acbc19-80af-4f67-ab9d-6753826888c9",
+        "0f909d39-7d89-4432-bdab-39b6c970d409"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "auto": {
+            "order": "3"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Cart",
+      "type": "box",
+      "uid": "0f909d39-7d89-4432-bdab-39b6c970d409"
+    },
+    "11fcab21-a510-41c6-ba9f-f8e9b1577f5b": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "a304704f-273f-4be5-aede-834a45b58b87",
+        "eb28dacd-50c9-432b-8c87-154837af25b2",
+        "cfb1d949-446a-4725-8cab-0928a581239a",
+        "11fcab21-a510-41c6-ba9f-f8e9b1577f5b"
+      ],
+      "custom_styling": {
+        "height": {
+          "min": {
+            "val": ""
+          },
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "order": "1",
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "min": {
+            "val": ""
+          },
+          "type": "fit"
+        }
+      },
+      "name": "File picker",
+      "properties": {
+        "input": {
+          "placeholder": "placeholder text...",
+          "type": "document"
+        },
+        "text": "edit text..."
+      },
+      "type": "input",
+      "uid": "11fcab21-a510-41c6-ba9f-f8e9b1577f5b"
+    },
+    "13907531-08fd-469a-bef4-6ffb841dbf0e": {
+      "children": [
+        "7e312c7b-761f-46e5-b7ad-c2bbb93ebc14"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "13907531-08fd-469a-bef4-6ffb841dbf0e"
+      ],
+      "custom_styling": {
+        "background": {
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": ""
+          },
+          "min": {
+            "val": ""
+          },
+          "type": "expand"
+        },
+        "layout": {
+          "direction": "column",
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "order": "2",
+            "position": "center"
+          },
+          "flexible": "1",
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": ""
+          },
+          "type": "expand"
+        }
+      },
+      "name": "Categories",
+      "type": "box",
+      "uid": "13907531-08fd-469a-bef4-6ffb841dbf0e",
+      "visual_logic": [
+        {
+          "condition": {
+            "connections": {
+              "node_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              },
+              "node_1_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              }
+            },
+            "nodes": {
+              "node_0": {
+                "name": "Get page data",
+                "parameters": {
+                  "target": "Current Page Width"
+                },
+                "type": "inline-entry.GetPageData",
+                "uid": "node_0"
+              },
+              "node_1": {
+                "name": "<=",
+                "parameters": {
+                  "comparator": "<="
+                },
+                "type": "inline-node.Comparison",
+                "uid": "node_1"
+              },
+              "node_1_0": {
+                "name": 1050,
+                "parameters": {
+                  "value": 1050
+                },
+                "type": "inline-entry.Litteral",
+                "uid": "node_1_0"
+              }
+            }
+          },
+          "properties": {
+            "is_hidden": true
+          }
+        }
+      ]
+    },
+    "139392ed-2450-4bd5-8793-2fae3089cf51": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "ae8f3828-d220-413d-9bac-3a4aebebc3f2",
+        "23672062-2753-4e7c-bd16-0f10d50deb39",
+        "c89c2c0f-afa4-48ce-bc9b-3fa643be25b9",
+        "139392ed-2450-4bd5-8793-2fae3089cf51"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "delivery",
+      "properties": {
+        "text": "Delivery"
+      },
+      "type": "text",
+      "uid": "139392ed-2450-4bd5-8793-2fae3089cf51"
+    },
+    "15ae25bf-2ff4-40ef-96fb-57e33bc461ac": {
+      "children": [
+        "35186cdc-a655-4a59-a585-b74525c46e86"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "f4a277b7-8f95-4549-875b-83c7d42ac321",
+        "be645ad9-4c2c-4e04-adf4-25a575cff770",
+        "15ae25bf-2ff4-40ef-96fb-57e33bc461ac"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "@f44bec20-fc89-410d-bc93-efd534b18a4d",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": "40"
+          },
+          "type": "fixed"
+        },
+        "layout": {
+          "direction": "row",
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "position": "center"
+          },
+          "relative": {
+            "vertical": "center"
+          },
+          "type": "auto"
+        },
+        "radius": {
+          "bottom_left": {
+            "unit": "px",
+            "val": "12"
+          },
+          "bottom_right": {
+            "unit": "px",
+            "val": "12"
+          },
+          "top_left": {
+            "unit": "px",
+            "val": "12"
+          },
+          "top_right": {
+            "unit": "px",
+            "val": "12"
+          }
+        },
+        "width": {
+          "fixed": {
+            "val": "272"
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "New box component",
+      "type": "box",
+      "uid": "15ae25bf-2ff4-40ef-96fb-57e33bc461ac"
+    },
+    "17869468-667e-4b41-815b-6cf42158131b": {
+      "children": [
+        "e0bf32ef-c4bc-49de-a671-50a84a894cef",
+        "9c51ed71-3a3d-4259-8f65-233c30eaec92"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "a304704f-273f-4be5-aede-834a45b58b87",
+        "17869468-667e-4b41-815b-6cf42158131b"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "direction": "row"
+        },
+        "position": {
+          "auto": {
+            "order": "2",
+            "position": "flex-start"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Create new styles",
+      "type": "box",
+      "uid": "17869468-667e-4b41-815b-6cf42158131b"
+    },
+    "1af7dda0-2268-4b6e-987f-15002741c6ec": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "bf036aaa-645c-4bec-b7aa-59d1f7ff7c0e",
+        "b6243333-5332-46be-96fc-190fa4e1aad1",
+        "1af7dda0-2268-4b6e-987f-15002741c6ec"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "padding": {
+          "left": {
+            "val": "20"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "1"
+          },
+          "flexible": "1",
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "New input component",
+      "properties": {
+        "input": {
+          "placeholder": "Search...",
+          "type": "text"
+        },
+        "text": "edit text..."
+      },
+      "type": "input",
+      "uid": "1af7dda0-2268-4b6e-987f-15002741c6ec"
+    },
+    "1e1cfe4c-fe79-49c9-8e95-a87bfcee4258": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "a304704f-273f-4be5-aede-834a45b58b87",
+        "eb28dacd-50c9-432b-8c87-154837af25b2",
+        "cfb1d949-446a-4725-8cab-0928a581239a",
+        "1e1cfe4c-fe79-49c9-8e95-a87bfcee4258"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "white",
+          "type": "color"
+        },
+        "height": {
+          "type": "fit"
+        },
+        "margin": {
+          "bottom": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "left": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "right": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "top": {
+            "unit": "rf",
+            "val": "1"
+          }
+        },
+        "padding": {
+          "bottom": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "left": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "right": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "top": {
+            "unit": "rf",
+            "val": "1"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "2",
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "radius": {
+          "bottom_left": {
+            "unit": "px",
+            "val": "8"
+          },
+          "bottom_right": {
+            "unit": "px",
+            "val": "8"
+          },
+          "top_left": {
+            "unit": "px",
+            "val": "8"
+          },
+          "top_right": {
+            "unit": "px",
+            "val": "8"
+          }
+        },
+        "text": {
+          "alignment": "center",
+          "color": ""
+        },
+        "width": {
+          "min": {
+            "val": ""
+          },
+          "type": "fit"
+        }
+      },
+      "logic": {
+        "ab5716b0-9bad-497e-b5c2-13f1cd34cc73": {
+          "connections": {
+            "ab5716b0-9bad-497e-b5c2-13f1cd34cc73_trigger": {
+              "success": {
+                "6ff947cd-730d-4beb-96ed-4562de2588ec": {
+                  "order": 0,
+                  "to": "6ff947cd-730d-4beb-96ed-4562de2588ec",
+                  "uid": "6ff947cd-730d-4beb-96ed-4562de2588ec"
+                }
+              }
+            }
+          },
+          "execution_order": 0,
+          "name": "On Click",
+          "nodes": {
+            "6ff947cd-730d-4beb-96ed-4562de2588ec": {
+              "name": "New Action",
+              "parameters": {
+                "body": "{\"csv_url\": \"@@{\"nodes\":{\"node_0\":{\"uid\":\"node_0\",\"name\":\"Get element\",\"type\":\"inline-entry.GetComponent\",\"parameters\":{\"target\":\"11fcab21-a510-41c6-ba9f-f8e9b1577f5b\"}},\"node_1\":{\"uid\":\"node_1\",\"name\":\"'s value\",\"type\":\"inline-node.GetComponentData\",\"parameters\":{\"target\":\"input_value\"}}},\"connections\":{\"node_0\":{\"success\":{\"node_1\":{\"order\":0,\"to\":\"node_1\",\"uid\":\"node_1\"}}}}}@@\"}",
+                "headers": "{\"Authorization\": \"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImduaW9jeHlqY3VnaHBna2dza2R0Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcxMjE2MTU1NSwiZXhwIjoyMDI3NzM3NTU1fQ.m-nDR56S6Pm2Ma8MZgZZwd1EjTtNyLXOc5xvYXmz1ns\", \"Content-Type\": \"application/json\"}",
+                "method": "POST",
+                "target": "POST",
+                "url": "https://budhapptool.app.n8n.cloud/webhook/parsecsv",
+                "value": "https://budhapptool.app.n8n.cloud/webhook/parsecsv"
+              },
+              "type": "action.callAPI",
+              "uid": "6ff947cd-730d-4beb-96ed-4562de2588ec"
+            },
+            "ab5716b0-9bad-497e-b5c2-13f1cd34cc73_trigger": {
+              "name": "On press",
+              "type": "trigger.onClick",
+              "uid": "ab5716b0-9bad-497e-b5c2-13f1cd34cc73_trigger"
+            }
+          },
+          "uid": "ab5716b0-9bad-497e-b5c2-13f1cd34cc73"
+        }
+      },
+      "name": "New text component",
+      "properties": {
+        "text": "Add items to shop"
+      },
+      "type": "text",
+      "uid": "1e1cfe4c-fe79-49c9-8e95-a87bfcee4258"
+    },
+    "206a499d-4645-4ab3-b363-f8034cf3d981": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "85acbc19-80af-4f67-ab9d-6753826888c9",
+        "0f909d39-7d89-4432-bdab-39b6c970d409",
+        "206a499d-4645-4ab3-b363-f8034cf3d981"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "unit": "px",
+            "val": "45"
+          },
+          "type": "fixed"
+        },
+        "position": {
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": "45"
+          },
+          "height": {
+            "type": "fit"
+          },
+          "type": "fixed"
+        }
+      },
+      "logic": {
+        "d0b2bb66-a5d7-406e-8512-c9bbb393ad8a": {
+          "connections": {
+            "d0b2bb66-a5d7-406e-8512-c9bbb393ad8a_trigger": {
+              "success": {
+                "53ad5ae1-727b-4508-a199-1e9d7a6fbb7f": {
+                  "order": 0,
+                  "to": "53ad5ae1-727b-4508-a199-1e9d7a6fbb7f",
+                  "uid": "53ad5ae1-727b-4508-a199-1e9d7a6fbb7f"
+                }
+              }
+            }
+          },
+          "execution_order": 0,
+          "name": "On Click",
+          "nodes": {
+            "53ad5ae1-727b-4508-a199-1e9d7a6fbb7f": {
+              "name": "New Action",
+              "parameters": {
+                "target": "is_hidden",
+                "uid": "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+                "value": "false"
+              },
+              "type": "action.setComponentProperty",
+              "uid": "53ad5ae1-727b-4508-a199-1e9d7a6fbb7f"
+            },
+            "d0b2bb66-a5d7-406e-8512-c9bbb393ad8a_trigger": {
+              "name": "On press",
+              "type": "trigger.onClick",
+              "uid": "d0b2bb66-a5d7-406e-8512-c9bbb393ad8a_trigger"
+            }
+          },
+          "uid": "d0b2bb66-a5d7-406e-8512-c9bbb393ad8a"
+        }
+      },
+      "name": "Cart image",
+      "properties": {
+        "image": "https://firebasestorage.googleapis.com/v0/b/budhapp-94298.appspot.com/o/public%2F494991dd-9a18-4ee1-b8a4-9c1e48a667f3%2Fa5759857-b1c5-4841-ad68-2df13d203596.png?alt=media&token=a3e4b6ce-c6f3-4172-b496-3b32ac1eaecc"
+      },
+      "type": "image",
+      "uid": "206a499d-4645-4ab3-b363-f8034cf3d981"
+    },
+    "21a32c28-8fb6-47ea-83bf-1f51d4e2d964": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+        "b1ebcd64-5acf-4975-b302-6a7e4590ff67",
+        "8bbab257-8c5b-4957-a845-6f89fdfb95f8",
+        "3e6c2362-beb3-4747-bd4b-0947ec140bc2",
+        "87a7c506-94cb-4756-bf7b-8950076d85ab",
+        "21a32c28-8fb6-47ea-83bf-1f51d4e2d964"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "unit": "px",
+            "val": "20"
+          },
+          "type": "fixed"
+        },
+        "position": {
+          "auto": {
+            "order": "3"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": "20"
+          },
+          "height": {
+            "type": "fit"
+          },
+          "type": "fixed"
+        }
+      },
+      "logic": {
+        "delete_item": {
+          "connections": {
+            "click_delete": {
+              "success": {
+                "action_delete": {
+                  "order": 0,
+                  "to": "action_delete",
+                  "uid": "action_delete"
+                }
+              }
+            }
+          },
+          "name": "Delete item",
+          "nodes": {
+            "action_delete": {
+              "name": "Delete item in DB",
+              "parameters": {
+                "assetId": "@@{\"nodes\": {\"n_0\": {\"uid\": \"n_0\",\"name\": \"Get element\",\"type\": \"inline-entry.GetCurrentCellItem\", \"parameters\": {\"target\": \"id\"}}},\"connections\": {}}@@",
+                "assetType": "fbf0f2b7-de07-4224-ab53-540a4f4883c4"
+              },
+              "type": "action.dbDelete",
+              "uid": "action_delete"
+            },
+            "click_delete": {
+              "name": "On press",
+              "type": "trigger.onClick",
+              "uid": "click_delete"
+            }
+          },
+          "uid": "delete_item"
+        }
+      },
+      "name": "Delete",
+      "properties": {
+        "image": "https://firebasestorage.googleapis.com/v0/b/budhapp-94298.appspot.com/o/public%2F494991dd-9a18-4ee1-b8a4-9c1e48a667f3%2Fed8783d5-f346-4268-af2f-52b32b98508e.jpg?alt=media&token=74e73308-816e-4721-ab91-7fbd81631fa4"
+      },
+      "type": "image",
+      "uid": "21a32c28-8fb6-47ea-83bf-1f51d4e2d964"
+    },
+    "2247301b-3ade-4371-a717-2a56ceb61f7a": {
+      "children": [
+        "13907531-08fd-469a-bef4-6ffb841dbf0e",
+        "bf036aaa-645c-4bec-b7aa-59d1f7ff7c0e",
+        "e762a90a-aed5-4ef3-9b81-ec6e30a10cdf"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "val": "100"
+          },
+          "min": {
+            "val": ""
+          },
+          "type": "fixed"
+        },
+        "layout": {
+          "column_gap": {
+            "val": "10"
+          },
+          "direction": "row",
+          "distribution": "between"
+        },
+        "padding": {
+          "left": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "right": {
+            "unit": "rf",
+            "val": "1"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "3",
+            "position": "stretch"
+          },
+          "flexible": "",
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Search form",
+      "type": "box",
+      "uid": "2247301b-3ade-4371-a717-2a56ceb61f7a"
+    },
+    "23672062-2753-4e7c-bd16-0f10d50deb39": {
+      "children": [
+        "9eeaf401-bc80-4d4b-8535-a8252c4a5ebe",
+        "c89c2c0f-afa4-48ce-bc9b-3fa643be25b9",
+        "356b0403-c6ec-477c-96d8-48b1c1312485"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "ae8f3828-d220-413d-9bac-3a4aebebc3f2",
+        "23672062-2753-4e7c-bd16-0f10d50deb39"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "column_gap": {
+            "val": "20"
+          },
+          "direction": "row"
+        },
+        "position": {
+          "auto": {
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "left",
+      "type": "box",
+      "uid": "23672062-2753-4e7c-bd16-0f10d50deb39",
+      "visual_logic": [
+        {
+          "condition": {
+            "connections": {
+              "node_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              },
+              "node_1_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              }
+            },
+            "nodes": {
+              "node_0": {
+                "name": "Get page data",
+                "parameters": {
+                  "target": "Current Page Width"
+                },
+                "type": "inline-entry.GetPageData",
+                "uid": "node_0"
+              },
+              "node_1": {
+                "name": "<=",
+                "parameters": {
+                  "comparator": "<="
+                },
+                "type": "inline-node.Comparison",
+                "uid": "node_1"
+              },
+              "node_1_0": {
+                "name": 1050,
+                "parameters": {
+                  "value": 1050
+                },
+                "type": "inline-entry.Litteral",
+                "uid": "node_1_0"
+              }
+            }
+          },
+          "properties": {
+            "is_hidden": true
+          }
+        }
+      ]
+    },
+    "240a1626-ad97-4db8-8452-5d5d960496ee": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "a1d90813-6ccd-4251-8493-788148a9bcc8",
+        "07507be5-391f-43bc-8ca5-595b93278887",
+        "240a1626-ad97-4db8-8452-5d5d960496ee"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "order": "1"
+          },
+          "type": "auto"
+        },
+        "text": {
+          "alignment": "center",
+          "color": "#2d2d2d",
+          "line_height": "1.5",
+          "size": {
+            "unit": "px",
+            "val": "32"
+          }
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "discounts text",
+      "properties": {
+        "text": "Animal Kingdom"
+      },
+      "type": "text",
+      "uid": "240a1626-ad97-4db8-8452-5d5d960496ee"
+    },
+    "2453603c-c323-4312-80e5-0e694c7d4442": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "e762a90a-aed5-4ef3-9b81-ec6e30a10cdf",
+        "841fa0ae-f5ae-4a25-8db9-ca498f3b28fd",
+        "2453603c-c323-4312-80e5-0e694c7d4442"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "unit": "px",
+            "val": "30"
+          },
+          "type": "fixed"
+        },
+        "margin": {
+          "top": {
+            "val": "8"
+          }
+        },
+        "padding": {
+          "top": {
+            "val": ""
+          }
+        },
+        "position": {
+          "auto": {
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": "30"
+          },
+          "height": {
+            "type": "fit"
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "Favorite",
+      "properties": {
+        "image": "https://firebasestorage.googleapis.com/v0/b/budhapp-94298.appspot.com/o/public%2F494991dd-9a18-4ee1-b8a4-9c1e48a667f3%2F2017894e-7d70-402b-9b80-d85746d6fb1d.png?alt=media&token=7ed87ac2-0640-4d75-add9-b41abf5aa16e"
+      },
+      "type": "image",
+      "uid": "2453603c-c323-4312-80e5-0e694c7d4442"
+    },
+    "29ba8296-5fa2-4ac1-a24e-b6c4ae180003": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "e762a90a-aed5-4ef3-9b81-ec6e30a10cdf",
+        "fc6897d7-80f9-483c-9097-711808ad671b",
+        "cd436171-fcb1-499c-952c-1413b9dd1ca5",
+        "29ba8296-5fa2-4ac1-a24e-b6c4ae180003"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "type": "auto"
+        },
+        "text": {
+          "alignment": "center",
+          "color": "#ffffff"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "New text component",
+      "properties": {
+        "text": ""
+      },
+      "type": "text",
+      "uid": "29ba8296-5fa2-4ac1-a24e-b6c4ae180003"
+    },
+    "2c54fade-d291-4c88-93ed-ccb99229e8c2": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "78b7174a-945b-4fc3-bb30-399fcb637a6d",
+        "058b0d84-d47b-49d6-b9ea-4bc3c4090252",
+        "b65fa458-12c5-49cd-b193-b9ea60c17971",
+        "2c54fade-d291-4c88-93ed-ccb99229e8c2"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "start"
+        },
+        "position": {
+          "auto": {
+            "position": "end"
+          },
+          "type": "auto"
+        },
+        "text": {
+          "color": "#2d2d2d"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "New text component",
+      "properties": {
+        "text": "+1 234 5677 88 99"
+      },
+      "type": "text",
+      "uid": "2c54fade-d291-4c88-93ed-ccb99229e8c2"
+    },
+    "2f6feae1-66cb-4cbd-9953-425f97098068": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+        "b1ebcd64-5acf-4975-b302-6a7e4590ff67",
+        "8bbab257-8c5b-4957-a845-6f89fdfb95f8",
+        "3e6c2362-beb3-4747-bd4b-0947ec140bc2",
+        "87a7c506-94cb-4756-bf7b-8950076d85ab",
+        "2f6feae1-66cb-4cbd-9953-425f97098068"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "unit": "px",
+            "val": "60"
+          },
+          "type": "fixed"
+        },
+        "position": {
+          "auto": {
+            "order": "1"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": "60"
+          },
+          "height": {
+            "type": "fit"
+          },
+          "min": {
+            "val": "130"
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "ShopItem pic",
+      "properties": {
+        "image": "@@{\"nodes\": {\"n_0\": {\"uid\": \"n_0\",\"name\": \"Get element\",\"type\": \"inline-entry.GetCurrentCellItem\", \"parameters\": {\"target\": \"057ce292-924d-41ac-b58a-4dbac33e5c5c\"}}},\"connections\": {}}@@"
+      },
+      "type": "image",
+      "uid": "2f6feae1-66cb-4cbd-9953-425f97098068"
+    },
+    "316cbe38-048d-49de-8e6e-143e7e252364": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "77ee0961-a5b3-4e4c-869d-0066724ab4c0",
+        "d43f59b9-1b4f-44b3-95f0-b71428197c44",
+        "316cbe38-048d-49de-8e6e-143e7e252364"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "unit": "px",
+            "val": "30"
+          },
+          "type": "fixed"
+        },
+        "margin": {
+          "right": {
+            "val": "8"
+          }
+        },
+        "padding": {
+          "left": {
+            "val": ""
+          },
+          "right": {
+            "val": ""
+          }
+        },
+        "position": {
+          "relative": {
+            "vertical": "center"
+          },
+          "type": "relative"
+        },
+        "width": {
+          "fixed": {
+            "val": "30"
+          },
+          "height": {
+            "type": "fit"
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "Burger icon",
+      "properties": {
+        "image": "https://firebasestorage.googleapis.com/v0/b/budhapp-94298.appspot.com/o/public%2F494991dd-9a18-4ee1-b8a4-9c1e48a667f3%2Fb3fd5984-5fe4-4385-98eb-1219945a52f5.png?alt=media&token=38c78179-2609-4f55-b1d7-a931380d3de3"
+      },
+      "type": "image",
+      "uid": "316cbe38-048d-49de-8e6e-143e7e252364"
+    },
+    "35186cdc-a655-4a59-a585-b74525c46e86": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "f4a277b7-8f95-4549-875b-83c7d42ac321",
+        "be645ad9-4c2c-4e04-adf4-25a575cff770",
+        "15ae25bf-2ff4-40ef-96fb-57e33bc461ac",
+        "35186cdc-a655-4a59-a585-b74525c46e86"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "padding": {
+          "top": {
+            "val": "11"
+          }
+        },
+        "position": {
+          "type": "auto"
+        },
+        "text": {
+          "alignment": "center",
+          "color": "#ffffff",
+          "size": {
+            "unit": "px",
+            "val": "18"
+          }
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "New text component",
+      "properties": {
+        "text": "All Goods"
+      },
+      "type": "text",
+      "uid": "35186cdc-a655-4a59-a585-b74525c46e86"
+    },
+    "356b0403-c6ec-477c-96d8-48b1c1312485": {
+      "children": [
+        "8d11efb6-c86b-4f20-b9c5-e56b341f25f3"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "ae8f3828-d220-413d-9bac-3a4aebebc3f2",
+        "23672062-2753-4e7c-bd16-0f10d50deb39",
+        "356b0403-c6ec-477c-96d8-48b1c1312485"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "auto": {
+            "order": "3"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "exchange and return",
+      "type": "box",
+      "uid": "356b0403-c6ec-477c-96d8-48b1c1312485",
+      "visual_logic": [
+        {
+          "condition": {
+            "connections": {
+              "node_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              },
+              "node_1_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              }
+            },
+            "nodes": {
+              "node_0": {
+                "name": "Get page data",
+                "parameters": {
+                  "target": "Current Page Width"
+                },
+                "type": "inline-entry.GetPageData",
+                "uid": "node_0"
+              },
+              "node_1": {
+                "name": "<=",
+                "parameters": {
+                  "comparator": "<="
+                },
+                "type": "inline-node.Comparison",
+                "uid": "node_1"
+              },
+              "node_1_0": {
+                "name": 1050,
+                "parameters": {
+                  "value": 1050
+                },
+                "type": "inline-entry.Litteral",
+                "uid": "node_1_0"
+              }
+            }
+          },
+          "properties": {
+            "is_hidden": true
+          }
+        }
+      ]
+    },
+    "39ae93bd-29a8-4aaa-9870-82a262db5c34": {
+      "children": [
+        "6a23dfb8-5044-40ca-bb03-be6d74ecb868"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "85acbc19-80af-4f67-ab9d-6753826888c9",
+        "39ae93bd-29a8-4aaa-9870-82a262db5c34"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "start"
+        },
+        "position": {
+          "auto": {
+            "order": "2"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Favorite",
+      "type": "box",
+      "uid": "39ae93bd-29a8-4aaa-9870-82a262db5c34"
+    },
+    "39bd6f1a-f419-4e22-8bd5-61f6123c880c": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "e762a90a-aed5-4ef3-9b81-ec6e30a10cdf",
+        "3c3a0a7d-6cf3-479f-a449-7b803239532a",
+        "39bd6f1a-f419-4e22-8bd5-61f6123c880c"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "unit": "px",
+            "val": "45"
+          },
+          "type": "fixed"
+        },
+        "position": {
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": "45"
+          },
+          "height": {
+            "type": "fit"
+          },
+          "type": "fixed"
+        }
+      },
+      "logic": {
+        "2f9b1ac1-f38f-457c-890b-9ec79087c61b": {
+          "connections": {
+            "2f9b1ac1-f38f-457c-890b-9ec79087c61b_trigger": {
+              "success": {
+                "8b15c8cb-54e4-4c2d-bb0c-625ebfb68aea": {
+                  "order": 0,
+                  "to": "8b15c8cb-54e4-4c2d-bb0c-625ebfb68aea",
+                  "uid": "8b15c8cb-54e4-4c2d-bb0c-625ebfb68aea"
+                }
+              }
+            }
+          },
+          "execution_order": 0,
+          "name": "On Click",
+          "nodes": {
+            "2f9b1ac1-f38f-457c-890b-9ec79087c61b_trigger": {
+              "name": "On press",
+              "type": "trigger.onClick",
+              "uid": "2f9b1ac1-f38f-457c-890b-9ec79087c61b_trigger"
+            },
+            "8b15c8cb-54e4-4c2d-bb0c-625ebfb68aea": {
+              "name": "New Action",
+              "parameters": {
+                "target": "page_680545c9-a673-468f-abe4-9348b74061cf"
+              },
+              "type": "action.navigate",
+              "uid": "8b15c8cb-54e4-4c2d-bb0c-625ebfb68aea"
+            }
+          },
+          "uid": "2f9b1ac1-f38f-457c-890b-9ec79087c61b"
+        }
+      },
+      "name": "New image component",
+      "properties": {
+        "image": "https://firebasestorage.googleapis.com/v0/b/budhapp-94298.appspot.com/o/public%2F494991dd-9a18-4ee1-b8a4-9c1e48a667f3%2Fabc5fff9-075a-4d4a-b131-f46cea4a9467.png?alt=media&token=7a4eb1ad-a0c8-474c-b97e-db425f332294"
+      },
+      "type": "image",
+      "uid": "39bd6f1a-f419-4e22-8bd5-61f6123c880c"
+    },
+    "3bb36169-eacd-4c85-8748-d1476eae3567": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "3bb36169-eacd-4c85-8748-d1476eae3567"
+      ],
+      "cuatom_styling": {
+        "background": {
+          "image": {
+            "src": "https://storage.googleapis.com/download/storage/v1/b/budhapp-94298.appspot.com/o/public%2F494991dd-9a18-4ee1-b8a4-9c1e48a667f3%2Fheader.png?generation=1714848742217126&alt=media"
+          }
+        }
+      },
+      "custom_styling": {
+        "background": {
+          "image": {
+            "src": "https://storage.googleapis.com/download/storage/v1/b/budhapp-94298.appspot.com/o/public%2F494991dd-9a18-4ee1-b8a4-9c1e48a667f3%2Fheader.png?generation=1714920578789281&alt=media"
+          },
+          "type": "image"
+        },
+        "height": {
+          "fixed": {
+            "val": "400"
+          },
+          "ratio": {
+            "height": "0.5"
+          },
+          "type": "ratio"
+        },
+        "position": {
+          "auto": {
+            "order": "4"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Title image",
+      "type": "box",
+      "uid": "3bb36169-eacd-4c85-8748-d1476eae3567"
+    },
+    "3c3a0a7d-6cf3-479f-a449-7b803239532a": {
+      "children": [
+        "39bd6f1a-f419-4e22-8bd5-61f6123c880c"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "e762a90a-aed5-4ef3-9b81-ec6e30a10cdf",
+        "3c3a0a7d-6cf3-479f-a449-7b803239532a"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "val": "28"
+          },
+          "type": "fit"
+        },
+        "position": {
+          "auto": {
+            "order": "1"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": "28"
+          },
+          "type": "fit"
+        }
+      },
+      "name": "Account",
+      "type": "box",
+      "uid": "3c3a0a7d-6cf3-479f-a449-7b803239532a"
+    },
+    "3e6c2362-beb3-4747-bd4b-0947ec140bc2": {
+      "children": [
+        "87a7c506-94cb-4756-bf7b-8950076d85ab"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+        "b1ebcd64-5acf-4975-b302-6a7e4590ff67",
+        "8bbab257-8c5b-4957-a845-6f89fdfb95f8",
+        "3e6c2362-beb3-4747-bd4b-0947ec140bc2"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "direction": "column"
+        },
+        "margin": {
+          "left": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "right": {
+            "unit": "rf",
+            "val": "1"
+          }
+        },
+        "position": {
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": ""
+          },
+          "min": {
+            "val": ""
+          },
+          "type": "expand"
+        }
+      },
+      "data": {
+        "listData": {
+          "item_type": "object",
+          "name": "list of items",
+          "type": "list",
+          "uid": "fbf0f2b7-de07-4224-ab53-540a4f4883c4"
+        }
+      },
+      "name": "Cart list",
+      "properties": {
+        "is_hidden": false,
+        "list_of_items": {
+          "nodes": {
+            "n_0": {
+              "name": "Get element",
+              "parameters": {
+                "constraint": {
+                  "comparator": "=",
+                  "key": "assetType",
+                  "value": "fbf0f2b7-de07-4224-ab53-540a4f4883c4"
+                }
+              },
+              "type": "inline-entry.dbRead",
+              "uid": "n_0"
+            }
+          }
+        },
+        "numColumns": "1"
+      },
+      "type": "boxList",
+      "uid": "3e6c2362-beb3-4747-bd4b-0947ec140bc2"
+    },
+    "49d32782-2229-4966-8337-5f10c5756b10": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "49d32782-2229-4966-8337-5f10c5756b10"
+      ],
+      "cuatom_styling": {
+        "background": {
+          "image": {
+            "src": "https://storage.googleapis.com/download/storage/v1/b/budhapp-94298.appspot.com/o/public%2F494991dd-9a18-4ee1-b8a4-9c1e48a667f3%2Fheader.png?generation=1714848742217126&alt=media"
+          }
+        }
+      },
+      "custom_styling": {
+        "background": {
+          "image": {
+            "src": "https://storage.googleapis.com/download/storage/v1/b/budhapp-94298.appspot.com/o/public%2F494991dd-9a18-4ee1-b8a4-9c1e48a667f3%2Fheader.png?generation=1715000410456454&alt=media"
+          },
+          "type": "image"
+        },
+        "height": {
+          "fixed": {
+            "val": "400"
+          },
+          "ratio": {
+            "height": "0.5"
+          },
+          "type": "ratio"
+        },
+        "position": {
+          "auto": {
+            "order": "4"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Title image",
+      "type": "box",
+      "uid": "49d32782-2229-4966-8337-5f10c5756b10"
+    },
+    "4a7d03a9-1eb5-45cc-b7d5-f07d03c1df50": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "ae8f3828-d220-413d-9bac-3a4aebebc3f2",
+        "23672062-2753-4e7c-bd16-0f10d50deb39",
+        "9eeaf401-bc80-4d4b-8535-a8252c4a5ebe",
+        "4a7d03a9-1eb5-45cc-b7d5-f07d03c1df50"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "type": "auto"
+        },
+        "text": {
+          "color": "#2d2d2d"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Payment",
+      "properties": {
+        "text": "Payment"
+      },
+      "type": "text",
+      "uid": "4a7d03a9-1eb5-45cc-b7d5-f07d03c1df50"
+    },
+    "4c2a01ac-968d-4fa0-900d-8e4266b59443": {
+      "children": [
+        "bdeaf8a9-924c-491f-8c09-3497b9c71ce0"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "85acbc19-80af-4f67-ab9d-6753826888c9",
+        "0f909d39-7d89-4432-bdab-39b6c970d409",
+        "4c2a01ac-968d-4fa0-900d-8e4266b59443"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "@f44bec20-fc89-410d-bc93-efd534b18a4d",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": "18"
+          },
+          "type": "fixed"
+        },
+        "position": {
+          "relative": {
+            "right": {
+              "val": "-5"
+            },
+            "top": {
+              "val": "5"
+            }
+          },
+          "type": "fixed"
+        },
+        "radius": {
+          "bottom_left": {
+            "unit": "px",
+            "val": "55"
+          },
+          "bottom_right": {
+            "unit": "px",
+            "val": "55"
+          },
+          "top_left": {
+            "unit": "px",
+            "val": "55"
+          },
+          "top_right": {
+            "unit": "px",
+            "val": "55"
+          }
+        },
+        "width": {
+          "fixed": {
+            "val": "18"
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "New box component",
+      "type": "box",
+      "uid": "4c2a01ac-968d-4fa0-900d-8e4266b59443"
+    },
+    "4c2d9412-72c2-4d90-9ab5-0380caa4dfef": {
+      "children": [
+        "5ab2eb52-b89c-43d6-9182-ccf24c60210a"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "e95f8ec9-c530-4f8f-828b-2c2b14cb7d28",
+        "b319ab23-a8ab-4efd-9b7f-50df033ad4a8",
+        "4c2d9412-72c2-4d90-9ab5-0380caa4dfef"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "@f44bec20-fc89-410d-bc93-efd534b18a4d",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": "50"
+          },
+          "type": "fixed"
+        },
+        "position": {
+          "auto": {
+            "order": "2"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": "50"
+          },
+          "min": {
+            "val": ""
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "New box component",
+      "type": "box",
+      "uid": "4c2d9412-72c2-4d90-9ab5-0380caa4dfef"
+    },
+    "4c5054bd-9b0e-4185-862e-43635acc25b4": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "e95f8ec9-c530-4f8f-828b-2c2b14cb7d28",
+        "b319ab23-a8ab-4efd-9b7f-50df033ad4a8",
+        "4c5054bd-9b0e-4185-862e-43635acc25b4"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "padding": {
+          "left": {
+            "val": "20"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "1"
+          },
+          "flexible": "1",
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "New input component",
+      "properties": {
+        "input": {
+          "placeholder": "Search...",
+          "type": "text"
+        },
+        "text": "edit text..."
+      },
+      "type": "input",
+      "uid": "4c5054bd-9b0e-4185-862e-43635acc25b4"
+    },
+    "52633f26-7e0a-4fee-932b-d61995b15c79": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "e762a90a-aed5-4ef3-9b81-ec6e30a10cdf",
+        "fc6897d7-80f9-483c-9097-711808ad671b",
+        "52633f26-7e0a-4fee-932b-d61995b15c79"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "unit": "px",
+            "val": "45"
+          },
+          "type": "fixed"
+        },
+        "position": {
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": "45"
+          },
+          "height": {
+            "type": "fit"
+          },
+          "type": "fixed"
+        }
+      },
+      "logic": {
+        "d0b2bb66-a5d7-406e-8512-c9bbb393ad8a": {
+          "connections": {
+            "d0b2bb66-a5d7-406e-8512-c9bbb393ad8a_trigger": {
+              "success": {
+                "53ad5ae1-727b-4508-a199-1e9d7a6fbb7f": {
+                  "order": 0,
+                  "to": "53ad5ae1-727b-4508-a199-1e9d7a6fbb7f",
+                  "uid": "53ad5ae1-727b-4508-a199-1e9d7a6fbb7f"
+                }
+              }
+            }
+          },
+          "execution_order": 0,
+          "name": "On Click",
+          "nodes": {
+            "53ad5ae1-727b-4508-a199-1e9d7a6fbb7f": {
+              "name": "New Action",
+              "parameters": {
+                "target": "is_hidden",
+                "uid": "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+                "value": "false"
+              },
+              "type": "action.setComponentProperty",
+              "uid": "53ad5ae1-727b-4508-a199-1e9d7a6fbb7f"
+            },
+            "d0b2bb66-a5d7-406e-8512-c9bbb393ad8a_trigger": {
+              "name": "On press",
+              "type": "trigger.onClick",
+              "uid": "d0b2bb66-a5d7-406e-8512-c9bbb393ad8a_trigger"
+            }
+          },
+          "uid": "d0b2bb66-a5d7-406e-8512-c9bbb393ad8a"
+        }
+      },
+      "name": "Cart image",
+      "properties": {
+        "image": "https://firebasestorage.googleapis.com/v0/b/budhapp-94298.appspot.com/o/public%2F494991dd-9a18-4ee1-b8a4-9c1e48a667f3%2Fa5759857-b1c5-4841-ad68-2df13d203596.png?alt=media&token=a3e4b6ce-c6f3-4172-b496-3b32ac1eaecc"
+      },
+      "type": "image",
+      "uid": "52633f26-7e0a-4fee-932b-d61995b15c79"
+    },
+    "57193cbd-dd8f-4539-8988-9c5b7abfa8bb": {
+      "children": [
+        "85428dd8-0f75-42fe-a123-ba8b0f18e245",
+        "84dc52f9-065f-4734-8998-b116a81c2401",
+        "ddaa94b3-f382-4c0a-bfb3-360e904df746"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "78b7174a-945b-4fc3-bb30-399fcb637a6d",
+        "57193cbd-dd8f-4539-8988-9c5b7abfa8bb"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "column_gap": {
+            "val": "20"
+          },
+          "direction": "row"
+        },
+        "position": {
+          "auto": {
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "left",
+      "type": "box",
+      "uid": "57193cbd-dd8f-4539-8988-9c5b7abfa8bb",
+      "visual_logic": [
+        {
+          "condition": {
+            "connections": {
+              "node_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              },
+              "node_1_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              }
+            },
+            "nodes": {
+              "node_0": {
+                "name": "Get page data",
+                "parameters": {
+                  "target": "Current Page Width"
+                },
+                "type": "inline-entry.GetPageData",
+                "uid": "node_0"
+              },
+              "node_1": {
+                "name": "<=",
+                "parameters": {
+                  "comparator": "<="
+                },
+                "type": "inline-node.Comparison",
+                "uid": "node_1"
+              },
+              "node_1_0": {
+                "name": 1050,
+                "parameters": {
+                  "value": 1050
+                },
+                "type": "inline-entry.Litteral",
+                "uid": "node_1_0"
+              }
+            }
+          },
+          "properties": {
+            "is_hidden": true
+          }
+        }
+      ]
+    },
+    "57284b79-3933-4940-931b-15622f7194ec": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+        "b1ebcd64-5acf-4975-b302-6a7e4590ff67",
+        "8bbab257-8c5b-4957-a845-6f89fdfb95f8",
+        "3e6c2362-beb3-4747-bd4b-0947ec140bc2",
+        "87a7c506-94cb-4756-bf7b-8950076d85ab",
+        "f66d7c4d-49c2-4858-9005-ebebf95ccf69",
+        "57284b79-3933-4940-931b-15622f7194ec"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "direction": "rowWrap"
+        },
+        "position": {
+          "auto": {
+            "order": "1",
+            "position": "flex-start"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "min": {
+            "val": ""
+          },
+          "type": "fit"
+        }
+      },
+      "name": "TitleCartItem",
+      "properties": {
+        "text": "@@{\"nodes\": {\"n_0\": {\"uid\": \"n_0\",\"name\": \"Get element\",\"type\": \"inline-entry.GetCurrentCellItem\", \"parameters\": {\"target\": \"0fe9218b-9d8b-4633-ab95-be459e5b8691\"}}},\"connections\": {}}@@"
+      },
+      "type": "text",
+      "uid": "57284b79-3933-4940-931b-15622f7194ec"
+    },
+    "5ab2eb52-b89c-43d6-9182-ccf24c60210a": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "e95f8ec9-c530-4f8f-828b-2c2b14cb7d28",
+        "b319ab23-a8ab-4efd-9b7f-50df033ad4a8",
+        "4c2d9412-72c2-4d90-9ab5-0380caa4dfef",
+        "5ab2eb52-b89c-43d6-9182-ccf24c60210a"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "unit": "px",
+            "val": "30"
+          },
+          "type": "fixed"
+        },
+        "layout": {
+          "direction": "column",
+          "distribution": "center"
+        },
+        "position": {
+          "flexible": "1",
+          "relative": {
+            "vertical": "center"
+          },
+          "type": "relative"
+        },
+        "width": {
+          "fixed": {
+            "val": "30"
+          },
+          "height": {
+            "type": "fit"
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "New image component",
+      "properties": {
+        "image": "https://firebasestorage.googleapis.com/v0/b/budhapp-94298.appspot.com/o/public%2F494991dd-9a18-4ee1-b8a4-9c1e48a667f3%2F1900f92f-c28f-46ee-802c-d0af482eb759.png?alt=media&token=d1d693ad-139e-41cd-bf47-4fc846f5f91d"
+      },
+      "type": "image",
+      "uid": "5ab2eb52-b89c-43d6-9182-ccf24c60210a"
+    },
+    "5e0d05eb-7761-42f9-b231-e0fc16d16fde": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "a304704f-273f-4be5-aede-834a45b58b87",
+        "5e0d05eb-7761-42f9-b231-e0fc16d16fde"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "#ffffff",
+          "type": "color"
+        },
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "center"
+        },
+        "padding": {
+          "bottom": {
+            "unit": "px",
+            "val": "20"
+          },
+          "left": {
+            "unit": "px",
+            "val": "20"
+          },
+          "right": {
+            "unit": "px",
+            "val": "20"
+          },
+          "top": {
+            "unit": "px",
+            "val": "20"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "3",
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "radius": {
+          "bottom_left": {
+            "unit": "px",
+            "val": "15"
+          },
+          "bottom_right": {
+            "unit": "px",
+            "val": "15"
+          },
+          "top_left": {
+            "unit": "px",
+            "val": "15"
+          },
+          "top_right": {
+            "unit": "px",
+            "val": "15"
+          }
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "logic": {
+        "5d7a94d9-2007-4607-b670-6b0da65e30a7": {
+          "connections": {
+            "5d7a94d9-2007-4607-b670-6b0da65e30a7_trigger": {
+              "success": {
+                "d269fe7e-4929-43fa-92c3-3ec45b81e76e": {
+                  "order": 0,
+                  "to": "d269fe7e-4929-43fa-92c3-3ec45b81e76e",
+                  "uid": "d269fe7e-4929-43fa-92c3-3ec45b81e76e"
+                }
+              }
+            }
+          },
+          "execution_order": 0,
+          "name": "On Click",
+          "nodes": {
+            "5d7a94d9-2007-4607-b670-6b0da65e30a7_trigger": {
+              "name": "On press",
+              "type": "trigger.onClick",
+              "uid": "5d7a94d9-2007-4607-b670-6b0da65e30a7_trigger"
+            },
+            "d269fe7e-4929-43fa-92c3-3ec45b81e76e": {
+              "name": "New Action",
+              "parameters": {
+                "target": "page_bbb27b2e-3430-42cf-9b1d-73da112257d0"
+              },
+              "type": "action.navigate",
+              "uid": "d269fe7e-4929-43fa-92c3-3ec45b81e76e"
+            }
+          },
+          "uid": "5d7a94d9-2007-4607-b670-6b0da65e30a7"
+        }
+      },
+      "name": "New text component",
+      "properties": {
+        "text": "Back to the shop"
+      },
+      "type": "text",
+      "uid": "5e0d05eb-7761-42f9-b231-e0fc16d16fde"
+    },
+    "5f0b8b16-4c4e-4c52-ade6-be0d0d175bec": {
+      "children": [
+        "eaefea58-33fc-4d10-baae-dec6b5438303"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "edec0beb-c2be-422d-92e7-1b09d5521ed4",
+        "8bdc9dff-fe78-4502-ae5f-1de5062ee374",
+        "5f0b8b16-4c4e-4c52-ade6-be0d0d175bec"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "@871f93b9-1985-4491-95a3-c64b92507aa1",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": "30"
+          },
+          "type": "fixed"
+        },
+        "position": {
+          "auto": {
+            "order": "4",
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "radius": {
+          "bottom_left": {
+            "unit": "px",
+            "val": "8"
+          },
+          "bottom_right": {
+            "unit": "px",
+            "val": "8"
+          },
+          "top_left": {
+            "unit": "px",
+            "val": "8"
+          },
+          "top_right": {
+            "unit": "px",
+            "val": "8"
+          }
+        },
+        "width": {
+          "fixed": {
+            "val": "200"
+          },
+          "type": "fixed"
+        }
+      },
+      "logic": {
+        "90375dd8-429b-4434-afd4-daa5169a3d03": {
+          "connections": {
+            "90375dd8-429b-4434-afd4-daa5169a3d03_trigger": {
+              "success": {
+                "cf7eb66e-e815-4ee8-a206-f5a64a8350b2": {
+                  "order": 0,
+                  "to": "cf7eb66e-e815-4ee8-a206-f5a64a8350b2",
+                  "uid": "cf7eb66e-e815-4ee8-a206-f5a64a8350b2"
+                }
+              }
+            }
+          },
+          "execution_order": 0,
+          "name": "On Click",
+          "nodes": {
+            "90375dd8-429b-4434-afd4-daa5169a3d03_trigger": {
+              "name": "On press",
+              "type": "trigger.onClick",
+              "uid": "90375dd8-429b-4434-afd4-daa5169a3d03_trigger"
+            },
+            "cf7eb66e-e815-4ee8-a206-f5a64a8350b2": {
+              "name": "New Action",
+              "parameters": {
+                "assetType": "fbf0f2b7-de07-4224-ab53-540a4f4883c4"
+              },
+              "type": "action.dbCreate",
+              "uid": "cf7eb66e-e815-4ee8-a206-f5a64a8350b2"
+            }
+          },
+          "uid": "90375dd8-429b-4434-afd4-daa5169a3d03"
+        }
+      },
+      "name": "Add to cart",
+      "type": "box",
+      "uid": "5f0b8b16-4c4e-4c52-ade6-be0d0d175bec"
+    },
+    "6589b223-0312-4301-bf6c-a695010e0727": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "bf036aaa-645c-4bec-b7aa-59d1f7ff7c0e",
+        "b6243333-5332-46be-96fc-190fa4e1aad1",
+        "d2e10b82-7d66-4626-b468-d6aa7a726d06",
+        "6589b223-0312-4301-bf6c-a695010e0727"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "unit": "px",
+            "val": "30"
+          },
+          "type": "fixed"
+        },
+        "layout": {
+          "direction": "column",
+          "distribution": "center"
+        },
+        "position": {
+          "flexible": "1",
+          "relative": {
+            "vertical": "center"
+          },
+          "type": "relative"
+        },
+        "width": {
+          "fixed": {
+            "val": "30"
+          },
+          "height": {
+            "type": "fit"
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "New image component",
+      "properties": {
+        "image": "https://firebasestorage.googleapis.com/v0/b/budhapp-94298.appspot.com/o/public%2F494991dd-9a18-4ee1-b8a4-9c1e48a667f3%2F1900f92f-c28f-46ee-802c-d0af482eb759.png?alt=media&token=d1d693ad-139e-41cd-bf47-4fc846f5f91d"
+      },
+      "type": "image",
+      "uid": "6589b223-0312-4301-bf6c-a695010e0727"
+    },
+    "680545c9-a673-468f-abe4-9348b74061cf": {
+      "children": [
+        "a304704f-273f-4be5-aede-834a45b58b87",
+        "ae8f3828-d220-413d-9bac-3a4aebebc3f2",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "f4a277b7-8f95-4549-875b-83c7d42ac321",
+        "3bb36169-eacd-4c85-8748-d1476eae3567"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "unit": "%",
+            "val": "100"
+          },
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "center",
+          "row_gap": {
+            "unit": "rf",
+            "val": "1"
+          }
+        },
+        "position": {
+          "auto": {
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "min": {
+            "unit": "%",
+            "val": "100"
+          },
+          "type": "expand"
+        }
+      },
+      "name": "Main Container",
+      "type": "box",
+      "uid": "680545c9-a673-468f-abe4-9348b74061cf"
+    },
+    "6a23dfb8-5044-40ca-bb03-be6d74ecb868": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "85acbc19-80af-4f67-ab9d-6753826888c9",
+        "39ae93bd-29a8-4aaa-9870-82a262db5c34",
+        "6a23dfb8-5044-40ca-bb03-be6d74ecb868"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "unit": "px",
+            "val": "30"
+          },
+          "type": "fixed"
+        },
+        "margin": {
+          "top": {
+            "val": "8"
+          }
+        },
+        "padding": {
+          "top": {
+            "val": ""
+          }
+        },
+        "position": {
+          "auto": {
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": "30"
+          },
+          "height": {
+            "type": "fit"
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "Favorite",
+      "properties": {
+        "image": "https://firebasestorage.googleapis.com/v0/b/budhapp-94298.appspot.com/o/public%2F494991dd-9a18-4ee1-b8a4-9c1e48a667f3%2F2017894e-7d70-402b-9b80-d85746d6fb1d.png?alt=media&token=7ed87ac2-0640-4d75-add9-b41abf5aa16e"
+      },
+      "type": "image",
+      "uid": "6a23dfb8-5044-40ca-bb03-be6d74ecb868"
+    },
+    "710f4c90-8269-428f-8b72-c6d9faf4500d": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "a1d90813-6ccd-4251-8493-788148a9bcc8",
+        "c3ad4a7f-9ad2-4885-a508-69ad87361023",
+        "a559ed98-4a39-4c06-9ab1-c75d51d30ab5",
+        "710f4c90-8269-428f-8b72-c6d9faf4500d"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "padding": {
+          "top": {
+            "val": "11"
+          }
+        },
+        "position": {
+          "type": "auto"
+        },
+        "text": {
+          "alignment": "center",
+          "color": "#ffffff",
+          "size": {
+            "unit": "px",
+            "val": "18"
+          }
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "New text component",
+      "properties": {
+        "text": "All Goods"
+      },
+      "type": "text",
+      "uid": "710f4c90-8269-428f-8b72-c6d9faf4500d"
+    },
+    "71e12ff9-8c05-45f2-9357-8cd5d5d19e38": {
+      "children": [
+        "00026913-2274-40b9-8f6d-3edb0066f188",
+        "e0c95cc8-abbf-4221-9d7d-c543955984b0"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "f4a277b7-8f95-4549-875b-83c7d42ac321",
+        "71e12ff9-8c05-45f2-9357-8cd5d5d19e38"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "order": "1",
+            "position": "center"
+          },
+          "flexible": "1",
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Left container",
+      "type": "box",
+      "uid": "71e12ff9-8c05-45f2-9357-8cd5d5d19e38"
+    },
+    "77ee0961-a5b3-4e4c-869d-0066724ab4c0": {
+      "children": [
+        "d43f59b9-1b4f-44b3-95f0-b71428197c44"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "77ee0961-a5b3-4e4c-869d-0066724ab4c0"
+      ],
+      "custom_styling": {
+        "background": {
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": ""
+          },
+          "min": {
+            "val": ""
+          },
+          "type": "expand"
+        },
+        "layout": {
+          "direction": "column",
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "order": "2",
+            "position": "center"
+          },
+          "flexible": "1",
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": ""
+          },
+          "type": "expand"
+        }
+      },
+      "name": "Categories",
+      "type": "box",
+      "uid": "77ee0961-a5b3-4e4c-869d-0066724ab4c0",
+      "visual_logic": [
+        {
+          "condition": {
+            "connections": {
+              "node_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              },
+              "node_1_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              }
+            },
+            "nodes": {
+              "node_0": {
+                "name": "Get page data",
+                "parameters": {
+                  "target": "Current Page Width"
+                },
+                "type": "inline-entry.GetPageData",
+                "uid": "node_0"
+              },
+              "node_1": {
+                "name": "<=",
+                "parameters": {
+                  "comparator": "<="
+                },
+                "type": "inline-node.Comparison",
+                "uid": "node_1"
+              },
+              "node_1_0": {
+                "name": 1050,
+                "parameters": {
+                  "value": 1050
+                },
+                "type": "inline-entry.Litteral",
+                "uid": "node_1_0"
+              }
+            }
+          },
+          "properties": {
+            "is_hidden": true
+          }
+        }
+      ]
+    },
+    "78b7174a-945b-4fc3-bb30-399fcb637a6d": {
+      "children": [
+        "57193cbd-dd8f-4539-8988-9c5b7abfa8bb",
+        "058b0d84-d47b-49d6-b9ea-4bc3c4090252"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "78b7174a-945b-4fc3-bb30-399fcb637a6d"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "@871f93b9-1985-4491-95a3-c64b92507aa1",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": "35"
+          },
+          "type": "fixed"
+        },
+        "layout": {
+          "direction": "row",
+          "distribution": "between"
+        },
+        "margin": {
+          "bottom": {
+            "val": "5"
+          }
+        },
+        "padding": {
+          "bottom": {
+            "val": "3"
+          },
+          "left": {
+            "unit": "%",
+            "val": "3"
+          },
+          "right": {
+            "unit": "%",
+            "val": "3"
+          },
+          "top": {
+            "val": "3"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "2"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "top phone contaner",
+      "type": "box",
+      "uid": "78b7174a-945b-4fc3-bb30-399fcb637a6d"
+    },
+    "7e312c7b-761f-46e5-b7ad-c2bbb93ebc14": {
+      "children": [
+        "ac011ce1-3cd5-4438-a02a-ad1358fa3adb",
+        "bc1d9b9d-839c-48f7-943f-1ac57b2affd3"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "13907531-08fd-469a-bef4-6ffb841dbf0e",
+        "7e312c7b-761f-46e5-b7ad-c2bbb93ebc14"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "@f44bec20-fc89-410d-bc93-efd534b18a4d",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": "50"
+          },
+          "type": "fixed"
+        },
+        "layout": {
+          "direction": "row",
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "position": "flex-start"
+          },
+          "relative": {
+            "vertical": "start"
+          },
+          "type": "relative"
+        },
+        "radius": {
+          "bottom_left": {
+            "unit": "px",
+            "val": "12"
+          },
+          "bottom_right": {
+            "unit": "px",
+            "val": "12"
+          },
+          "top_left": {
+            "unit": "px",
+            "val": "12"
+          },
+          "top_right": {
+            "unit": "px",
+            "val": "12"
+          }
+        },
+        "width": {
+          "fixed": {
+            "val": "127"
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "Catgories container",
+      "properties": {
+        "is_hidden": false
+      },
+      "type": "box",
+      "uid": "7e312c7b-761f-46e5-b7ad-c2bbb93ebc14",
+      "visual_logic": [
+        {
+          "condition": {
+            "connections": {
+              "node_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              },
+              "node_1_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              }
+            },
+            "nodes": {
+              "node_0": {
+                "name": "Get page data",
+                "parameters": {
+                  "target": "Current Page Width"
+                },
+                "type": "inline-entry.GetPageData",
+                "uid": "node_0"
+              },
+              "node_1": {
+                "name": "<=",
+                "parameters": {
+                  "comparator": "<="
+                },
+                "type": "inline-node.Comparison",
+                "uid": "node_1"
+              },
+              "node_1_0": {
+                "name": 700,
+                "parameters": {
+                  "value": 700
+                },
+                "type": "inline-entry.Litteral",
+                "uid": "node_1_0"
+              }
+            }
+          },
+          "properties": {
+            "is_hidden": true
+          }
+        }
+      ]
+    },
+    "82ce6691-b0a7-4ee9-847a-bf9dcae6c6b2": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "edec0beb-c2be-422d-92e7-1b09d5521ed4",
+        "8bdc9dff-fe78-4502-ae5f-1de5062ee374",
+        "82ce6691-b0a7-4ee9-847a-bf9dcae6c6b2"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "#ffffff",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "unit": "px",
+            "val": "212"
+          },
+          "type": "fixed"
+        },
+        "position": {
+          "auto": {
+            "order": "1",
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": "212"
+          },
+          "height": {
+            "type": "fit"
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "Image",
+      "properties": {
+        "image": "@@{\"nodes\": {\"n_0\": {\"uid\": \"n_0\",\"name\": \"Get element\",\"type\": \"inline-entry.GetCurrentCellItem\", \"parameters\": {\"target\": \"65a14709-b649-4fb7-ad0e-0acbb2529d2f\"}}},\"connections\": {}}@@"
+      },
+      "type": "image",
+      "uid": "82ce6691-b0a7-4ee9-847a-bf9dcae6c6b2"
+    },
+    "841fa0ae-f5ae-4a25-8db9-ca498f3b28fd": {
+      "children": [
+        "2453603c-c323-4312-80e5-0e694c7d4442"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "e762a90a-aed5-4ef3-9b81-ec6e30a10cdf",
+        "841fa0ae-f5ae-4a25-8db9-ca498f3b28fd"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "start"
+        },
+        "position": {
+          "auto": {
+            "order": "2"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Favorite",
+      "type": "box",
+      "uid": "841fa0ae-f5ae-4a25-8db9-ca498f3b28fd"
+    },
+    "84dc52f9-065f-4734-8998-b116a81c2401": {
+      "children": [
+        "ebce6849-ad19-4d32-8d54-87ef0d9f81e9"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "78b7174a-945b-4fc3-bb30-399fcb637a6d",
+        "57193cbd-dd8f-4539-8988-9c5b7abfa8bb",
+        "84dc52f9-065f-4734-8998-b116a81c2401"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "auto": {
+            "order": "2"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "delivery container",
+      "type": "box",
+      "uid": "84dc52f9-065f-4734-8998-b116a81c2401"
+    },
+    "85423cff-0f26-4272-9b57-a1261d8b010a": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "edec0beb-c2be-422d-92e7-1b09d5521ed4",
+        "8bdc9dff-fe78-4502-ae5f-1de5062ee374",
+        "85423cff-0f26-4272-9b57-a1261d8b010a"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "expand"
+        },
+        "margin": {
+          "bottom": {
+            "val": "10"
+          },
+          "top": {
+            "val": "10"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "3",
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "text": {
+          "size": {
+            "unit": "px",
+            "val": "16"
+          }
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Price",
+      "properties": {
+        "text": "@@{\"nodes\": {\"n_0\": {\"uid\": \"n_0\",\"name\": \"Get element\",\"type\": \"inline-entry.GetCurrentCellItem\", \"parameters\": {\"target\": \"a5a89181-e29e-4392-a7f1-e86fdbaf987c\"}}},\"connections\": {}}@@"
+      },
+      "type": "text",
+      "uid": "85423cff-0f26-4272-9b57-a1261d8b010a"
+    },
+    "85428dd8-0f75-42fe-a123-ba8b0f18e245": {
+      "children": [
+        "fb38132e-a1be-417c-81b3-c1d8a62e05a8"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "78b7174a-945b-4fc3-bb30-399fcb637a6d",
+        "57193cbd-dd8f-4539-8988-9c5b7abfa8bb",
+        "85428dd8-0f75-42fe-a123-ba8b0f18e245"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "auto": {
+            "order": "1"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "payment container",
+      "type": "box",
+      "uid": "85428dd8-0f75-42fe-a123-ba8b0f18e245",
+      "visual_logic": [
+        {
+          "condition": {
+            "connections": {
+              "node_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              },
+              "node_1_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              }
+            },
+            "nodes": {
+              "node_0": {
+                "name": "Get page data",
+                "parameters": {
+                  "target": "Current Page Width"
+                },
+                "type": "inline-entry.GetPageData",
+                "uid": "node_0"
+              },
+              "node_1": {
+                "name": "<=",
+                "parameters": {
+                  "comparator": "<="
+                },
+                "type": "inline-node.Comparison",
+                "uid": "node_1"
+              },
+              "node_1_0": {
+                "name": 1050,
+                "parameters": {
+                  "value": 1050
+                },
+                "type": "inline-entry.Litteral",
+                "uid": "node_1_0"
+              }
+            }
+          },
+          "properties": {
+            "is_hidden": true
+          }
+        }
+      ]
+    },
+    "85acbc19-80af-4f67-ab9d-6753826888c9": {
+      "children": [
+        "efa44b0a-46c0-4e1d-8589-a0f1ba6c9133",
+        "39ae93bd-29a8-4aaa-9870-82a262db5c34",
+        "0f909d39-7d89-4432-bdab-39b6c970d409"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "85acbc19-80af-4f67-ab9d-6753826888c9"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "direction": "row",
+          "distribution": "center"
+        },
+        "margin": {
+          "right": {
+            "unit": "rf",
+            "val": ""
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "4",
+            "position": "center"
+          },
+          "flexible": "1",
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Account settings",
+      "type": "box",
+      "uid": "85acbc19-80af-4f67-ab9d-6753826888c9"
+    },
+    "87a7c506-94cb-4756-bf7b-8950076d85ab": {
+      "children": [
+        "21a32c28-8fb6-47ea-83bf-1f51d4e2d964",
+        "2f6feae1-66cb-4cbd-9953-425f97098068",
+        "f66d7c4d-49c2-4858-9005-ebebf95ccf69"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+        "b1ebcd64-5acf-4975-b302-6a7e4590ff67",
+        "8bbab257-8c5b-4957-a845-6f89fdfb95f8",
+        "3e6c2362-beb3-4747-bd4b-0947ec140bc2",
+        "87a7c506-94cb-4756-bf7b-8950076d85ab"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "val": "30"
+          },
+          "type": "fit"
+        },
+        "layout": {
+          "column_gap": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "direction": "row",
+          "distribution": "start"
+        },
+        "margin": {
+          "bottom": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "left": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "right": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "top": {
+            "unit": "rf",
+            "val": "1"
+          }
+        },
+        "position": {
+          "auto": {
+            "position": "stretch"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "unit": "%",
+            "val": ""
+          },
+          "max": {
+            "unit": "px",
+            "val": ""
+          },
+          "min": {
+            "val": ""
+          },
+          "type": "expand"
+        }
+      },
+      "name": "RootItemCart",
+      "type": "box",
+      "uid": "87a7c506-94cb-4756-bf7b-8950076d85ab"
+    },
+    "8bbab257-8c5b-4957-a845-6f89fdfb95f8": {
+      "children": [
+        "3e6c2362-beb3-4747-bd4b-0947ec140bc2"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+        "b1ebcd64-5acf-4975-b302-6a7e4590ff67",
+        "8bbab257-8c5b-4957-a845-6f89fdfb95f8"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "direction": "column"
+        },
+        "margin": {
+          "bottom": {
+            "unit": "px",
+            "val": "2"
+          },
+          "left": {
+            "unit": "px",
+            "val": "2"
+          },
+          "right": {
+            "unit": "px",
+            "val": "2"
+          },
+          "top": {
+            "unit": "rf",
+            "val": "2"
+          }
+        },
+        "padding": {
+          "left": {
+            "val": ""
+          }
+        },
+        "position": {
+          "type": "auto"
+        },
+        "width": {
+          "max": {
+            "val": ""
+          },
+          "min": {
+            "val": "400"
+          },
+          "type": "expand"
+        }
+      },
+      "name": "Content modal",
+      "type": "box",
+      "uid": "8bbab257-8c5b-4957-a845-6f89fdfb95f8"
+    },
+    "8bdc9dff-fe78-4502-ae5f-1de5062ee374": {
+      "children": [
+        "5f0b8b16-4c4e-4c52-ade6-be0d0d175bec",
+        "d55f00b1-599b-405c-8c3c-359c38cb91c8",
+        "85423cff-0f26-4272-9b57-a1261d8b010a",
+        "82ce6691-b0a7-4ee9-847a-bf9dcae6c6b2"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "edec0beb-c2be-422d-92e7-1b09d5521ed4",
+        "8bdc9dff-fe78-4502-ae5f-1de5062ee374"
+      ],
+      "custom_styling": {
+        "border": {
+          "bottom": {
+            "color": "#e4eaff",
+            "width": {
+              "unit": "px",
+              "val": ""
+            }
+          },
+          "left": {
+            "color": "#e4eaff",
+            "width": {
+              "unit": "px",
+              "val": ""
+            }
+          },
+          "right": {
+            "color": "#e4eaff",
+            "width": {
+              "unit": "px",
+              "val": ""
+            }
+          },
+          "top": {
+            "color": "#e4eaff",
+            "width": {
+              "unit": "px",
+              "val": ""
+            }
+          }
+        },
+        "height": {
+          "fixed": {
+            "val": "329"
+          },
+          "type": "fixed"
+        },
+        "margin": {
+          "bottom": {
+            "val": "20"
+          },
+          "left": {
+            "val": "20"
+          },
+          "right": {
+            "val": "20"
+          },
+          "top": {
+            "val": "20"
+          }
+        },
+        "padding": {
+          "bottom": {
+            "unit": "px",
+            "val": "20"
+          },
+          "left": {
+            "unit": "px",
+            "val": "20"
+          },
+          "right": {
+            "unit": "px",
+            "val": "20"
+          },
+          "top": {
+            "unit": "px",
+            "val": "20"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "1",
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "radius": {
+          "bottom_left": {
+            "unit": "px",
+            "val": "20"
+          },
+          "bottom_right": {
+            "unit": "px",
+            "val": "20"
+          },
+          "top_left": {
+            "unit": "px",
+            "val": "20"
+          },
+          "top_right": {
+            "unit": "px",
+            "val": "20"
+          }
+        },
+        "width": {
+          "fixed": {
+            "val": "212"
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "Main container",
+      "type": "box",
+      "uid": "8bdc9dff-fe78-4502-ae5f-1de5062ee374"
+    },
+    "8d11efb6-c86b-4f20-b9c5-e56b341f25f3": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "ae8f3828-d220-413d-9bac-3a4aebebc3f2",
+        "23672062-2753-4e7c-bd16-0f10d50deb39",
+        "356b0403-c6ec-477c-96d8-48b1c1312485",
+        "8d11efb6-c86b-4f20-b9c5-e56b341f25f3"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Exchange and return",
+      "properties": {
+        "text": "Exchange and return"
+      },
+      "type": "text",
+      "uid": "8d11efb6-c86b-4f20-b9c5-e56b341f25f3",
+      "visual_logic": [
+        {
+          "condition": {
+            "connections": {
+              "node_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              },
+              "node_1_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              }
+            },
+            "nodes": {
+              "node_0": {
+                "name": "Get page data",
+                "parameters": {
+                  "target": "Current Page Width"
+                },
+                "type": "inline-entry.GetPageData",
+                "uid": "node_0"
+              },
+              "node_1": {
+                "name": "<=",
+                "parameters": {
+                  "comparator": "<="
+                },
+                "type": "inline-node.Comparison",
+                "uid": "node_1"
+              },
+              "node_1_0": {
+                "name": 1050,
+                "parameters": {
+                  "value": 1050
+                },
+                "type": "inline-entry.Litteral",
+                "uid": "node_1_0"
+              }
+            }
+          },
+          "properties": {
+            "is_hidden": true
+          }
+        }
+      ]
+    },
+    "8fba8dd3-38b1-42cd-9a2b-007f54c450cb": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "78b7174a-945b-4fc3-bb30-399fcb637a6d",
+        "058b0d84-d47b-49d6-b9ea-4bc3c4090252",
+        "b9200b83-e5d3-4faa-bdcf-e1269b6f6ebb",
+        "8fba8dd3-38b1-42cd-9a2b-007f54c450cb"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "type": "auto"
+        },
+        "text": {
+          "color": "#969696"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Delivery time text",
+      "properties": {
+        "text": "8:00 am to 10:00 pm"
+      },
+      "type": "text",
+      "uid": "8fba8dd3-38b1-42cd-9a2b-007f54c450cb"
+    },
+    "9579b353-cc9b-4246-ba7f-ac355bec4003": {
+      "children": [
+        "97b606f2-baa0-4e9f-889e-453b2d31b0a7",
+        "ccb1ea39-4f42-4ada-aeac-04e47d244c5f"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "ae8f3828-d220-413d-9bac-3a4aebebc3f2",
+        "9579b353-cc9b-4246-ba7f-ac355bec4003"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "column_gap": {
+            "val": "20"
+          },
+          "direction": "row",
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "right",
+      "type": "box",
+      "uid": "9579b353-cc9b-4246-ba7f-ac355bec4003"
+    },
+    "97b606f2-baa0-4e9f-889e-453b2d31b0a7": {
+      "children": [
+        "b8567937-1270-48c5-ae64-bf09e7396e2a"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "ae8f3828-d220-413d-9bac-3a4aebebc3f2",
+        "9579b353-cc9b-4246-ba7f-ac355bec4003",
+        "97b606f2-baa0-4e9f-889e-453b2d31b0a7"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "auto": {
+            "order": "1"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Delivery time",
+      "type": "box",
+      "uid": "97b606f2-baa0-4e9f-889e-453b2d31b0a7"
+    },
+    "9c51ed71-3a3d-4259-8f65-233c30eaec92": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "a304704f-273f-4be5-aede-834a45b58b87",
+        "17869468-667e-4b41-815b-6cf42158131b",
+        "9c51ed71-3a3d-4259-8f65-233c30eaec92"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "white",
+          "type": "color"
+        },
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "start"
+        },
+        "margin": {
+          "bottom": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "left": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "right": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "top": {
+            "unit": "rf",
+            "val": "1"
+          }
+        },
+        "padding": {
+          "bottom": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "left": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "right": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "top": {
+            "unit": "rf",
+            "val": "1"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "3",
+            "position": "center"
+          },
+          "relative": {
+            "vertical": "center"
+          },
+          "type": "relative"
+        },
+        "radius": {
+          "bottom_left": {
+            "unit": "px",
+            "val": "8"
+          },
+          "bottom_right": {
+            "unit": "px",
+            "val": "8"
+          },
+          "top_left": {
+            "unit": "px",
+            "val": "8"
+          },
+          "top_right": {
+            "unit": "px",
+            "val": "8"
+          }
+        },
+        "text": {
+          "color": ""
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "logic": {
+        "e929c316-3f4e-4043-ad44-b26f6adc4775": {
+          "connections": {
+            "e929c316-3f4e-4043-ad44-b26f6adc4775_trigger": {
+              "success": {
+                "f5d6d761-9c7f-45ab-bd44-2c0f08f4ca7f": {
+                  "order": 0,
+                  "to": "f5d6d761-9c7f-45ab-bd44-2c0f08f4ca7f",
+                  "uid": "f5d6d761-9c7f-45ab-bd44-2c0f08f4ca7f"
+                }
+              }
+            },
+            "f5d6d761-9c7f-45ab-bd44-2c0f08f4ca7f": {
+              "success": {
+                "3de386e1-3e04-4d63-b819-c9be9a926028": {
+                  "order": 0,
+                  "to": "3de386e1-3e04-4d63-b819-c9be9a926028",
+                  "uid": "3de386e1-3e04-4d63-b819-c9be9a926028"
+                }
+              }
+            }
+          },
+          "execution_order": 0,
+          "name": "On Click",
+          "nodes": {
+            "3de386e1-3e04-4d63-b819-c9be9a926028": {
+              "name": "New Action",
+              "type": "action.updateSchema",
+              "uid": "3de386e1-3e04-4d63-b819-c9be9a926028"
+            },
+            "e929c316-3f4e-4043-ad44-b26f6adc4775_trigger": {
+              "name": "On press",
+              "type": "trigger.onClick",
+              "uid": "e929c316-3f4e-4043-ad44-b26f6adc4775_trigger"
+            },
+            "f5d6d761-9c7f-45ab-bd44-2c0f08f4ca7f": {
+              "name": "New Action",
+              "parameters": {
+                "body": "{}",
+                "headers": "{\"Authorization\": \"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImduaW9jeHlqY3VnaHBna2dza2R0Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcxMjE2MTU1NSwiZXhwIjoyMDI3NzM3NTU1fQ.m-nDR56S6Pm2Ma8MZgZZwd1EjTtNyLXOc5xvYXmz1ns\", \"Content-Type\": \"application/json\"}",
+                "method": "POST",
+                "url": "https://budhapptool.app.n8n.cloud/webhook/generateshop"
+              },
+              "type": "action.callAPI",
+              "uid": "f5d6d761-9c7f-45ab-bd44-2c0f08f4ca7f"
+            }
+          },
+          "uid": "e929c316-3f4e-4043-ad44-b26f6adc4775"
+        }
+      },
+      "name": "Regenerate",
+      "properties": {
+        "text": "⭐ AI 🪄"
+      },
+      "type": "text",
+      "uid": "9c51ed71-3a3d-4259-8f65-233c30eaec92"
+    },
+    "9eeaf401-bc80-4d4b-8535-a8252c4a5ebe": {
+      "children": [
+        "4a7d03a9-1eb5-45cc-b7d5-f07d03c1df50"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "ae8f3828-d220-413d-9bac-3a4aebebc3f2",
+        "23672062-2753-4e7c-bd16-0f10d50deb39",
+        "9eeaf401-bc80-4d4b-8535-a8252c4a5ebe"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "auto": {
+            "order": "1"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "payment container",
+      "type": "box",
+      "uid": "9eeaf401-bc80-4d4b-8535-a8252c4a5ebe",
+      "visual_logic": [
+        {
+          "condition": {
+            "connections": {
+              "node_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              },
+              "node_1_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              }
+            },
+            "nodes": {
+              "node_0": {
+                "name": "Get page data",
+                "parameters": {
+                  "target": "Current Page Width"
+                },
+                "type": "inline-entry.GetPageData",
+                "uid": "node_0"
+              },
+              "node_1": {
+                "name": "<=",
+                "parameters": {
+                  "comparator": "<="
+                },
+                "type": "inline-node.Comparison",
+                "uid": "node_1"
+              },
+              "node_1_0": {
+                "name": 1050,
+                "parameters": {
+                  "value": 1050
+                },
+                "type": "inline-entry.Litteral",
+                "uid": "node_1_0"
+              }
+            }
+          },
+          "properties": {
+            "is_hidden": true
+          }
+        }
+      ]
+    },
+    "a1d90813-6ccd-4251-8493-788148a9bcc8": {
+      "children": [
+        "07507be5-391f-43bc-8ca5-595b93278887",
+        "c3ad4a7f-9ad2-4885-a508-69ad87361023"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "a1d90813-6ccd-4251-8493-788148a9bcc8"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "@871f93b9-1985-4491-95a3-c64b92507aa1",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": "200"
+          },
+          "type": "fixed"
+        },
+        "layout": {
+          "column_gap": {
+            "val": "16"
+          },
+          "direction": "row",
+          "distribution": "between"
+        },
+        "padding": {
+          "bottom": {
+            "val": "40"
+          },
+          "left": {
+            "val": "32"
+          },
+          "right": {
+            "val": "32"
+          },
+          "top": {
+            "val": "40"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "5"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Main title container",
+      "type": "box",
+      "uid": "a1d90813-6ccd-4251-8493-788148a9bcc8"
+    },
+    "a304704f-273f-4be5-aede-834a45b58b87": {
+      "children": [
+        "5e0d05eb-7761-42f9-b231-e0fc16d16fde",
+        "17869468-667e-4b41-815b-6cf42158131b",
+        "eb28dacd-50c9-432b-8c87-154837af25b2"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "a304704f-273f-4be5-aede-834a45b58b87"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "lightgrey",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": "278"
+          },
+          "type": "fit"
+        },
+        "layout": {
+          "direction": "column",
+          "distribution": "center"
+        },
+        "margin": {
+          "bottom": {
+            "unit": "rf",
+            "val": ""
+          },
+          "left": {
+            "unit": "px",
+            "val": ""
+          },
+          "right": {
+            "val": ""
+          },
+          "top": {
+            "val": ""
+          }
+        },
+        "padding": {
+          "bottom": {
+            "unit": "rf",
+            "val": "2"
+          },
+          "left": {
+            "unit": "rf",
+            "val": "2"
+          },
+          "right": {
+            "unit": "rf",
+            "val": "2"
+          },
+          "top": {
+            "unit": "rf",
+            "val": "2"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "6",
+            "position": "flex-start"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "min": {
+            "unit": "%",
+            "val": "100"
+          },
+          "type": "expand"
+        }
+      },
+      "name": "Upload",
+      "type": "box",
+      "uid": "a304704f-273f-4be5-aede-834a45b58b87"
+    },
+    "a559ed98-4a39-4c06-9ab1-c75d51d30ab5": {
+      "children": [
+        "710f4c90-8269-428f-8b72-c6d9faf4500d"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "a1d90813-6ccd-4251-8493-788148a9bcc8",
+        "c3ad4a7f-9ad2-4885-a508-69ad87361023",
+        "a559ed98-4a39-4c06-9ab1-c75d51d30ab5"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "@f44bec20-fc89-410d-bc93-efd534b18a4d",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": "40"
+          },
+          "type": "fixed"
+        },
+        "layout": {
+          "direction": "row",
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "position": "center"
+          },
+          "relative": {
+            "vertical": "center"
+          },
+          "type": "auto"
+        },
+        "radius": {
+          "bottom_left": {
+            "unit": "px",
+            "val": "12"
+          },
+          "bottom_right": {
+            "unit": "px",
+            "val": "12"
+          },
+          "top_left": {
+            "unit": "px",
+            "val": "12"
+          },
+          "top_right": {
+            "unit": "px",
+            "val": "12"
+          }
+        },
+        "width": {
+          "fixed": {
+            "val": "272"
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "New box component",
+      "type": "box",
+      "uid": "a559ed98-4a39-4c06-9ab1-c75d51d30ab5"
+    },
+    "ac011ce1-3cd5-4438-a02a-ad1358fa3adb": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "13907531-08fd-469a-bef4-6ffb841dbf0e",
+        "7e312c7b-761f-46e5-b7ad-c2bbb93ebc14",
+        "ac011ce1-3cd5-4438-a02a-ad1358fa3adb"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "unit": "px",
+            "val": "30"
+          },
+          "type": "fixed"
+        },
+        "margin": {
+          "right": {
+            "val": "8"
+          }
+        },
+        "padding": {
+          "left": {
+            "val": ""
+          },
+          "right": {
+            "val": ""
+          }
+        },
+        "position": {
+          "relative": {
+            "vertical": "center"
+          },
+          "type": "relative"
+        },
+        "width": {
+          "fixed": {
+            "val": "30"
+          },
+          "height": {
+            "type": "fit"
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "Burger icon",
+      "properties": {
+        "image": "https://firebasestorage.googleapis.com/v0/b/budhapp-94298.appspot.com/o/public%2F494991dd-9a18-4ee1-b8a4-9c1e48a667f3%2Fb3fd5984-5fe4-4385-98eb-1219945a52f5.png?alt=media&token=38c78179-2609-4f55-b1d7-a931380d3de3"
+      },
+      "type": "image",
+      "uid": "ac011ce1-3cd5-4438-a02a-ad1358fa3adb"
+    },
+    "ac9a0e56-c780-4648-ba88-f1dff07adae2": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "ae8f3828-d220-413d-9bac-3a4aebebc3f2",
+        "9579b353-cc9b-4246-ba7f-ac355bec4003",
+        "ccb1ea39-4f42-4ada-aeac-04e47d244c5f",
+        "ac9a0e56-c780-4648-ba88-f1dff07adae2"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "type": "auto"
+        },
+        "text": {
+          "color": "#2d2d2d"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "New text component",
+      "properties": {
+        "text": "+1 234 5677 88 99"
+      },
+      "type": "text",
+      "uid": "ac9a0e56-c780-4648-ba88-f1dff07adae2"
+    },
+    "ad57df70-2ed4-4983-a3a8-a1f986497cbe": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "85acbc19-80af-4f67-ab9d-6753826888c9",
+        "efa44b0a-46c0-4e1d-8589-a0f1ba6c9133",
+        "ad57df70-2ed4-4983-a3a8-a1f986497cbe"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "unit": "px",
+            "val": "45"
+          },
+          "type": "fixed"
+        },
+        "position": {
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": "45"
+          },
+          "height": {
+            "type": "fit"
+          },
+          "type": "fixed"
+        }
+      },
+      "logic": {
+        "2f9b1ac1-f38f-457c-890b-9ec79087c61b": {
+          "connections": {
+            "2f9b1ac1-f38f-457c-890b-9ec79087c61b_trigger": {
+              "success": {
+                "8b15c8cb-54e4-4c2d-bb0c-625ebfb68aea": {
+                  "order": 0,
+                  "to": "8b15c8cb-54e4-4c2d-bb0c-625ebfb68aea",
+                  "uid": "8b15c8cb-54e4-4c2d-bb0c-625ebfb68aea"
+                }
+              }
+            }
+          },
+          "execution_order": 0,
+          "name": "On Click",
+          "nodes": {
+            "2f9b1ac1-f38f-457c-890b-9ec79087c61b_trigger": {
+              "name": "On press",
+              "type": "trigger.onClick",
+              "uid": "2f9b1ac1-f38f-457c-890b-9ec79087c61b_trigger"
+            },
+            "8b15c8cb-54e4-4c2d-bb0c-625ebfb68aea": {
+              "name": "New Action",
+              "parameters": {
+                "target": "page_680545c9-a673-468f-abe4-9348b74061cf"
+              },
+              "type": "action.navigate",
+              "uid": "8b15c8cb-54e4-4c2d-bb0c-625ebfb68aea"
+            }
+          },
+          "uid": "2f9b1ac1-f38f-457c-890b-9ec79087c61b"
+        }
+      },
+      "name": "New image component",
+      "properties": {
+        "image": "https://firebasestorage.googleapis.com/v0/b/budhapp-94298.appspot.com/o/public%2F494991dd-9a18-4ee1-b8a4-9c1e48a667f3%2Fabc5fff9-075a-4d4a-b131-f46cea4a9467.png?alt=media&token=7a4eb1ad-a0c8-474c-b97e-db425f332294"
+      },
+      "type": "image",
+      "uid": "ad57df70-2ed4-4983-a3a8-a1f986497cbe"
+    },
+    "adb3f941-d2ca-4a43-91ab-d0a457765b47": {
+      "children": [
+        "059d7ef7-41d5-4458-b9c1-76646a2c2bfa",
+        "eb0134ca-11a7-49a3-b93a-ccd63e81f3f3"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+        "b1ebcd64-5acf-4975-b302-6a7e4590ff67",
+        "adb3f941-d2ca-4a43-91ab-d0a457765b47"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "val": "30"
+          },
+          "min": {
+            "val": ""
+          },
+          "type": "fit"
+        },
+        "layout": {
+          "direction": "row",
+          "distribution": "between"
+        },
+        "margin": {
+          "left": {
+            "val": ""
+          }
+        },
+        "padding": {
+          "left": {
+            "val": "20"
+          },
+          "right": {
+            "val": "20"
+          },
+          "top": {
+            "val": "20"
+          }
+        },
+        "position": {
+          "auto": {
+            "position": "stretch"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "min": {
+            "val": ""
+          },
+          "type": "expand"
+        }
+      },
+      "name": "Header modal",
+      "type": "box",
+      "uid": "adb3f941-d2ca-4a43-91ab-d0a457765b47"
+    },
+    "ae8f3828-d220-413d-9bac-3a4aebebc3f2": {
+      "children": [
+        "23672062-2753-4e7c-bd16-0f10d50deb39",
+        "9579b353-cc9b-4246-ba7f-ac355bec4003"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "ae8f3828-d220-413d-9bac-3a4aebebc3f2"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "@871f93b9-1985-4491-95a3-c64b92507aa1",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": "35"
+          },
+          "type": "fixed"
+        },
+        "layout": {
+          "direction": "row",
+          "distribution": "between"
+        },
+        "margin": {
+          "bottom": {
+            "val": "5"
+          }
+        },
+        "padding": {
+          "bottom": {
+            "val": "3"
+          },
+          "left": {
+            "unit": "%",
+            "val": "3"
+          },
+          "right": {
+            "unit": "%",
+            "val": "3"
+          },
+          "top": {
+            "val": "3"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "2"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "top phone contaner",
+      "type": "box",
+      "uid": "ae8f3828-d220-413d-9bac-3a4aebebc3f2"
+    },
+    "b1ebcd64-5acf-4975-b302-6a7e4590ff67": {
+      "children": [
+        "adb3f941-d2ca-4a43-91ab-d0a457765b47",
+        "8bbab257-8c5b-4957-a845-6f89fdfb95f8"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+        "b1ebcd64-5acf-4975-b302-6a7e4590ff67"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "#FFFFFF",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "unit": "px",
+            "val": ""
+          },
+          "min": {
+            "val": "300"
+          },
+          "type": "fit"
+        },
+        "margin": {
+          "bottom": {
+            "unit": "rf",
+            "val": "3"
+          },
+          "left": {
+            "unit": "rf",
+            "val": "3"
+          },
+          "right": {
+            "unit": "rf",
+            "val": "3"
+          },
+          "top": {
+            "unit": "rf",
+            "val": "3"
+          }
+        },
+        "position": {
+          "auto": {
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "unit": "px",
+            "val": ""
+          },
+          "min": {
+            "val": ""
+          },
+          "type": "expand"
+        }
+      },
+      "name": "Root modal",
+      "type": "box",
+      "uid": "b1ebcd64-5acf-4975-b302-6a7e4590ff67"
+    },
+    "b319ab23-a8ab-4efd-9b7f-50df033ad4a8": {
+      "children": [
+        "4c2d9412-72c2-4d90-9ab5-0380caa4dfef",
+        "4c5054bd-9b0e-4185-862e-43635acc25b4"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "e95f8ec9-c530-4f8f-828b-2c2b14cb7d28",
+        "b319ab23-a8ab-4efd-9b7f-50df033ad4a8"
+      ],
+      "custom_styling": {
+        "border": {
+          "bottom": {
+            "color": "#e5ebff",
+            "style": "solid",
+            "width": {
+              "unit": "px",
+              "val": "1"
+            }
+          },
+          "left": {
+            "color": "#e5ebff",
+            "style": "solid",
+            "width": {
+              "unit": "px",
+              "val": "1"
+            }
+          },
+          "right": {
+            "color": "#e5ebff",
+            "style": "solid",
+            "width": {
+              "unit": "px",
+              "val": "1"
+            }
+          },
+          "top": {
+            "color": "#e5ebff",
+            "style": "solid",
+            "width": {
+              "unit": "px",
+              "val": "1"
+            }
+          }
+        },
+        "height": {
+          "fixed": {
+            "val": "50"
+          },
+          "min": {
+            "val": ""
+          },
+          "type": "fixed"
+        },
+        "layout": {
+          "direction": "row",
+          "distribution": "between"
+        },
+        "position": {
+          "auto": {
+            "position": "stretch"
+          },
+          "flexible": "1",
+          "type": "auto"
+        },
+        "radius": {
+          "bottom_left": {
+            "unit": "px",
+            "val": "6"
+          },
+          "bottom_right": {
+            "unit": "px",
+            "val": "6"
+          },
+          "top_left": {
+            "unit": "px",
+            "val": "6"
+          },
+          "top_right": {
+            "unit": "px",
+            "val": "6"
+          }
+        },
+        "width": {
+          "min": {
+            "val": "225"
+          },
+          "type": "expand"
+        }
+      },
+      "name": "Search container",
+      "type": "box",
+      "uid": "b319ab23-a8ab-4efd-9b7f-50df033ad4a8"
+    },
+    "b6243333-5332-46be-96fc-190fa4e1aad1": {
+      "children": [
+        "d2e10b82-7d66-4626-b468-d6aa7a726d06",
+        "1af7dda0-2268-4b6e-987f-15002741c6ec"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "bf036aaa-645c-4bec-b7aa-59d1f7ff7c0e",
+        "b6243333-5332-46be-96fc-190fa4e1aad1"
+      ],
+      "custom_styling": {
+        "border": {
+          "bottom": {
+            "color": "#e5ebff",
+            "style": "solid",
+            "width": {
+              "unit": "px",
+              "val": "1"
+            }
+          },
+          "left": {
+            "color": "#e5ebff",
+            "style": "solid",
+            "width": {
+              "unit": "px",
+              "val": "1"
+            }
+          },
+          "right": {
+            "color": "#e5ebff",
+            "style": "solid",
+            "width": {
+              "unit": "px",
+              "val": "1"
+            }
+          },
+          "top": {
+            "color": "#e5ebff",
+            "style": "solid",
+            "width": {
+              "unit": "px",
+              "val": "1"
+            }
+          }
+        },
+        "height": {
+          "fixed": {
+            "val": "50"
+          },
+          "min": {
+            "val": ""
+          },
+          "type": "fixed"
+        },
+        "layout": {
+          "direction": "row",
+          "distribution": "between"
+        },
+        "position": {
+          "auto": {
+            "position": "stretch"
+          },
+          "flexible": "1",
+          "type": "auto"
+        },
+        "radius": {
+          "bottom_left": {
+            "unit": "px",
+            "val": "6"
+          },
+          "bottom_right": {
+            "unit": "px",
+            "val": "6"
+          },
+          "top_left": {
+            "unit": "px",
+            "val": "6"
+          },
+          "top_right": {
+            "unit": "px",
+            "val": "6"
+          }
+        },
+        "width": {
+          "min": {
+            "val": "225"
+          },
+          "type": "expand"
+        }
+      },
+      "name": "Search container",
+      "type": "box",
+      "uid": "b6243333-5332-46be-96fc-190fa4e1aad1"
+    },
+    "b65fa458-12c5-49cd-b193-b9ea60c17971": {
+      "children": [
+        "2c54fade-d291-4c88-93ed-ccb99229e8c2"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "78b7174a-945b-4fc3-bb30-399fcb637a6d",
+        "058b0d84-d47b-49d6-b9ea-4bc3c4090252",
+        "b65fa458-12c5-49cd-b193-b9ea60c17971"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "auto": {
+            "order": "2"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Phone container",
+      "type": "box",
+      "uid": "b65fa458-12c5-49cd-b193-b9ea60c17971"
+    },
+    "b8567937-1270-48c5-ae64-bf09e7396e2a": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "ae8f3828-d220-413d-9bac-3a4aebebc3f2",
+        "9579b353-cc9b-4246-ba7f-ac355bec4003",
+        "97b606f2-baa0-4e9f-889e-453b2d31b0a7",
+        "b8567937-1270-48c5-ae64-bf09e7396e2a"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "type": "auto"
+        },
+        "text": {
+          "color": "#969696"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Delivery time text",
+      "properties": {
+        "text": "Delivery from 8:00 am to 10:00 pm"
+      },
+      "type": "text",
+      "uid": "b8567937-1270-48c5-ae64-bf09e7396e2a"
+    },
+    "b9200b83-e5d3-4faa-bdcf-e1269b6f6ebb": {
+      "children": [
+        "8fba8dd3-38b1-42cd-9a2b-007f54c450cb"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "78b7174a-945b-4fc3-bb30-399fcb637a6d",
+        "058b0d84-d47b-49d6-b9ea-4bc3c4090252",
+        "b9200b83-e5d3-4faa-bdcf-e1269b6f6ebb"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "auto": {
+            "order": "1"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Delivery time",
+      "type": "box",
+      "uid": "b9200b83-e5d3-4faa-bdcf-e1269b6f6ebb"
+    },
+    "b98ec320-d6b1-4d69-9237-6766b608bc8e": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "a1d90813-6ccd-4251-8493-788148a9bcc8",
+        "07507be5-391f-43bc-8ca5-595b93278887",
+        "b98ec320-d6b1-4d69-9237-6766b608bc8e"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "order": "2"
+          },
+          "type": "auto"
+        },
+        "text": {
+          "alignment": "center",
+          "color": "#0006"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Seasonal discounts",
+      "properties": {
+        "text": "Experience the magic of the animal kingdom with our adorable plush toys! Welcome to the Wild Side of our online shop."
+      },
+      "type": "text",
+      "uid": "b98ec320-d6b1-4d69-9237-6766b608bc8e",
+      "visual_logic": [
+        {
+          "condition": {
+            "connections": {
+              "node_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              },
+              "node_1_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              }
+            },
+            "nodes": {
+              "node_0": {
+                "name": "Get page data",
+                "parameters": {
+                  "target": "Current Page Width"
+                },
+                "type": "inline-entry.GetPageData",
+                "uid": "node_0"
+              },
+              "node_1": {
+                "name": "<=",
+                "parameters": {
+                  "comparator": "<="
+                },
+                "type": "inline-node.Comparison",
+                "uid": "node_1"
+              },
+              "node_1_0": {
+                "name": 700,
+                "parameters": {
+                  "value": 700
+                },
+                "type": "inline-entry.Litteral",
+                "uid": "node_1_0"
+              }
+            }
+          },
+          "properties": {
+            "is_hidden": true
+          }
+        }
+      ]
+    },
+    "bbb27b2e-3430-42cf-9b1d-73da112257d0": {
+      "children": [
+        "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+        "edec0beb-c2be-422d-92e7-1b09d5521ed4",
+        "49d32782-2229-4966-8337-5f10c5756b10",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "78b7174a-945b-4fc3-bb30-399fcb637a6d",
+        "a1d90813-6ccd-4251-8493-788148a9bcc8"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "#ffffff",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": "3000"
+          },
+          "type": "fit"
+        },
+        "position": {
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Main Container",
+      "type": "box",
+      "uid": "bbb27b2e-3430-42cf-9b1d-73da112257d0"
+    },
+    "bc1d9b9d-839c-48f7-943f-1ac57b2affd3": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "13907531-08fd-469a-bef4-6ffb841dbf0e",
+        "7e312c7b-761f-46e5-b7ad-c2bbb93ebc14",
+        "bc1d9b9d-839c-48f7-943f-1ac57b2affd3"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "margin": {
+          "top": {
+            "val": "16"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "2"
+          },
+          "type": "auto"
+        },
+        "text": {
+          "alignment": "left",
+          "color": "#FFFFFF",
+          "size": {
+            "unit": "px",
+            "val": "18"
+          }
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Catalog",
+      "properties": {
+        "text": "Catalog"
+      },
+      "type": "text",
+      "uid": "bc1d9b9d-839c-48f7-943f-1ac57b2affd3"
+    },
+    "bdeaf8a9-924c-491f-8c09-3497b9c71ce0": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "85acbc19-80af-4f67-ab9d-6753826888c9",
+        "0f909d39-7d89-4432-bdab-39b6c970d409",
+        "4c2a01ac-968d-4fa0-900d-8e4266b59443",
+        "bdeaf8a9-924c-491f-8c09-3497b9c71ce0"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "type": "auto"
+        },
+        "text": {
+          "alignment": "center",
+          "color": "#ffffff"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "New text component",
+      "properties": {
+        "text": ""
+      },
+      "type": "text",
+      "uid": "bdeaf8a9-924c-491f-8c09-3497b9c71ce0"
+    },
+    "be645ad9-4c2c-4e04-adf4-25a575cff770": {
+      "children": [
+        "15ae25bf-2ff4-40ef-96fb-57e33bc461ac"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "f4a277b7-8f95-4549-875b-83c7d42ac321",
+        "be645ad9-4c2c-4e04-adf4-25a575cff770"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "order": "2",
+            "position": "center"
+          },
+          "flexible": "1",
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Right container",
+      "type": "box",
+      "uid": "be645ad9-4c2c-4e04-adf4-25a575cff770"
+    },
+    "bf036aaa-645c-4bec-b7aa-59d1f7ff7c0e": {
+      "children": [
+        "b6243333-5332-46be-96fc-190fa4e1aad1"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "bf036aaa-645c-4bec-b7aa-59d1f7ff7c0e"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "direction": "row",
+          "distribution": "start"
+        },
+        "position": {
+          "auto": {
+            "order": "3",
+            "position": "center"
+          },
+          "flexible": "3",
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "search form",
+      "type": "box",
+      "uid": "bf036aaa-645c-4bec-b7aa-59d1f7ff7c0e"
+    },
+    "c3ad4a7f-9ad2-4885-a508-69ad87361023": {
+      "children": [
+        "a559ed98-4a39-4c06-9ab1-c75d51d30ab5"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "a1d90813-6ccd-4251-8493-788148a9bcc8",
+        "c3ad4a7f-9ad2-4885-a508-69ad87361023"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "order": "2",
+            "position": "center"
+          },
+          "flexible": "1",
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Right container",
+      "type": "box",
+      "uid": "c3ad4a7f-9ad2-4885-a508-69ad87361023"
+    },
+    "c89c2c0f-afa4-48ce-bc9b-3fa643be25b9": {
+      "children": [
+        "139392ed-2450-4bd5-8793-2fae3089cf51"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "ae8f3828-d220-413d-9bac-3a4aebebc3f2",
+        "23672062-2753-4e7c-bd16-0f10d50deb39",
+        "c89c2c0f-afa4-48ce-bc9b-3fa643be25b9"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "auto": {
+            "order": "2"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "delivery container",
+      "type": "box",
+      "uid": "c89c2c0f-afa4-48ce-bc9b-3fa643be25b9"
+    },
+    "ccb1ea39-4f42-4ada-aeac-04e47d244c5f": {
+      "children": [
+        "ac9a0e56-c780-4648-ba88-f1dff07adae2"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "ae8f3828-d220-413d-9bac-3a4aebebc3f2",
+        "9579b353-cc9b-4246-ba7f-ac355bec4003",
+        "ccb1ea39-4f42-4ada-aeac-04e47d244c5f"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "auto": {
+            "order": "2"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Phone container",
+      "type": "box",
+      "uid": "ccb1ea39-4f42-4ada-aeac-04e47d244c5f"
+    },
+    "cd436171-fcb1-499c-952c-1413b9dd1ca5": {
+      "children": [
+        "29ba8296-5fa2-4ac1-a24e-b6c4ae180003"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "e762a90a-aed5-4ef3-9b81-ec6e30a10cdf",
+        "fc6897d7-80f9-483c-9097-711808ad671b",
+        "cd436171-fcb1-499c-952c-1413b9dd1ca5"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "@f44bec20-fc89-410d-bc93-efd534b18a4d",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": "18"
+          },
+          "type": "fixed"
+        },
+        "position": {
+          "relative": {
+            "right": {
+              "val": "-5"
+            },
+            "top": {
+              "val": "5"
+            }
+          },
+          "type": "fixed"
+        },
+        "radius": {
+          "bottom_left": {
+            "unit": "px",
+            "val": "55"
+          },
+          "bottom_right": {
+            "unit": "px",
+            "val": "55"
+          },
+          "top_left": {
+            "unit": "px",
+            "val": "55"
+          },
+          "top_right": {
+            "unit": "px",
+            "val": "55"
+          }
+        },
+        "width": {
+          "fixed": {
+            "val": "18"
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "New box component",
+      "type": "box",
+      "uid": "cd436171-fcb1-499c-952c-1413b9dd1ca5"
+    },
+    "ced3e19a-46e7-4cc8-b011-74fe7bc1c419": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+        "b1ebcd64-5acf-4975-b302-6a7e4590ff67",
+        "8bbab257-8c5b-4957-a845-6f89fdfb95f8",
+        "3e6c2362-beb3-4747-bd4b-0947ec140bc2",
+        "87a7c506-94cb-4756-bf7b-8950076d85ab",
+        "f66d7c4d-49c2-4858-9005-ebebf95ccf69",
+        "004cbb1c-ea4f-4639-a70b-b0e01a71e68f",
+        "ced3e19a-46e7-4cc8-b011-74fe7bc1c419"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "New text component",
+      "properties": {
+        "text": "1"
+      },
+      "type": "text",
+      "uid": "ced3e19a-46e7-4cc8-b011-74fe7bc1c419"
+    },
+    "cfb1d949-446a-4725-8cab-0928a581239a": {
+      "children": [
+        "11fcab21-a510-41c6-ba9f-f8e9b1577f5b",
+        "1e1cfe4c-fe79-49c9-8e95-a87bfcee4258"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "a304704f-273f-4be5-aede-834a45b58b87",
+        "eb28dacd-50c9-432b-8c87-154837af25b2",
+        "cfb1d949-446a-4725-8cab-0928a581239a"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "direction": "rowWrap",
+          "distribution": "start"
+        },
+        "position": {
+          "auto": {
+            "order": "4",
+            "position": "flex-start"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "New box component",
+      "type": "box",
+      "uid": "cfb1d949-446a-4725-8cab-0928a581239a"
+    },
+    "childComponent": {
+      "children": [
+        "textComponent"
+      ],
+      "composite_key": [
+        "rootElementContainer",
+        "childComponent"
+      ],
+      "custom_styling": {
+        "border": {
+          "bottom": {
+            "color": "#000000",
+            "style": "solid",
+            "width": {
+              "unit": "px",
+              "val": "1"
+            }
+          },
+          "left": {
+            "color": "#000000",
+            "style": "solid",
+            "width": {
+              "unit": "px",
+              "val": "1"
+            }
+          },
+          "right": {
+            "color": "#000000",
+            "style": "solid",
+            "width": {
+              "unit": "px",
+              "val": "1"
+            }
+          },
+          "top": {
+            "color": "#000000",
+            "style": "solid",
+            "width": {
+              "unit": "px",
+              "val": "1"
+            }
+          }
+        },
+        "height": {
+          "min": {
+            "unit": "px",
+            "val": "40"
+          }
+        },
+        "layout": {
+          "direction": "column",
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "position": "center"
+          }
+        },
+        "radius": {
+          "bottom_left": {
+            "unit": "px",
+            "val": "12"
+          },
+          "bottom_right": {
+            "unit": "px",
+            "val": "12"
+          },
+          "top_left": {
+            "unit": "px",
+            "val": "12"
+          },
+          "top_right": {
+            "unit": "px",
+            "val": "12"
+          }
+        },
+        "width": {
+          "fixed": {
+            "unit": "px",
+            "val": "200"
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "New box component",
+      "type": "box",
+      "uid": "childComponent"
+    },
+    "d2e10b82-7d66-4626-b468-d6aa7a726d06": {
+      "children": [
+        "6589b223-0312-4301-bf6c-a695010e0727"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "bf036aaa-645c-4bec-b7aa-59d1f7ff7c0e",
+        "b6243333-5332-46be-96fc-190fa4e1aad1",
+        "d2e10b82-7d66-4626-b468-d6aa7a726d06"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "@f44bec20-fc89-410d-bc93-efd534b18a4d",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": "50"
+          },
+          "type": "fixed"
+        },
+        "position": {
+          "auto": {
+            "order": "2"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": "50"
+          },
+          "min": {
+            "val": ""
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "New box component",
+      "type": "box",
+      "uid": "d2e10b82-7d66-4626-b468-d6aa7a726d06"
+    },
+    "d43f59b9-1b4f-44b3-95f0-b71428197c44": {
+      "children": [
+        "316cbe38-048d-49de-8e6e-143e7e252364",
+        "f9f2ffe8-2b28-41f3-8d50-b8d0640584b0"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "77ee0961-a5b3-4e4c-869d-0066724ab4c0",
+        "d43f59b9-1b4f-44b3-95f0-b71428197c44"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "@f44bec20-fc89-410d-bc93-efd534b18a4d",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": "50"
+          },
+          "type": "fixed"
+        },
+        "layout": {
+          "direction": "row",
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "position": "flex-start"
+          },
+          "relative": {
+            "vertical": "start"
+          },
+          "type": "relative"
+        },
+        "radius": {
+          "bottom_left": {
+            "unit": "px",
+            "val": "12"
+          },
+          "bottom_right": {
+            "unit": "px",
+            "val": "12"
+          },
+          "top_left": {
+            "unit": "px",
+            "val": "12"
+          },
+          "top_right": {
+            "unit": "px",
+            "val": "12"
+          }
+        },
+        "width": {
+          "fixed": {
+            "val": "127"
+          },
+          "type": "fixed"
+        }
+      },
+      "name": "Catgories container",
+      "properties": {
+        "is_hidden": false
+      },
+      "type": "box",
+      "uid": "d43f59b9-1b4f-44b3-95f0-b71428197c44",
+      "visual_logic": [
+        {
+          "condition": {
+            "connections": {
+              "node_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              },
+              "node_1_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              }
+            },
+            "nodes": {
+              "node_0": {
+                "name": "Get page data",
+                "parameters": {
+                  "target": "Current Page Width"
+                },
+                "type": "inline-entry.GetPageData",
+                "uid": "node_0"
+              },
+              "node_1": {
+                "name": "<=",
+                "parameters": {
+                  "comparator": "<="
+                },
+                "type": "inline-node.Comparison",
+                "uid": "node_1"
+              },
+              "node_1_0": {
+                "name": 700,
+                "parameters": {
+                  "value": 700
+                },
+                "type": "inline-entry.Litteral",
+                "uid": "node_1_0"
+              }
+            }
+          },
+          "properties": {
+            "is_hidden": true
+          }
+        }
+      ]
+    },
+    "d55f00b1-599b-405c-8c3c-359c38cb91c8": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "edec0beb-c2be-422d-92e7-1b09d5521ed4",
+        "8bdc9dff-fe78-4502-ae5f-1de5062ee374",
+        "d55f00b1-599b-405c-8c3c-359c38cb91c8"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "auto": {
+            "order": "2",
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "text": {
+          "alignment": "center",
+          "color": "#111112"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Name",
+      "properties": {
+        "text": "@@{\"nodes\": {\"n_0\": {\"uid\": \"n_0\",\"name\": \"Get element\",\"type\": \"inline-entry.GetCurrentCellItem\", \"parameters\": {\"target\": \"e3c7d9f5-a70c-4400-98e0-782bf7405428\"}}},\"connections\": {}}@@"
+      },
+      "type": "text",
+      "uid": "d55f00b1-599b-405c-8c3c-359c38cb91c8"
+    },
+    "ddaa94b3-f382-4c0a-bfb3-360e904df746": {
+      "children": [
+        "095bed35-1e52-44c7-9fec-771afb98a914"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "78b7174a-945b-4fc3-bb30-399fcb637a6d",
+        "57193cbd-dd8f-4539-8988-9c5b7abfa8bb",
+        "ddaa94b3-f382-4c0a-bfb3-360e904df746"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "auto": {
+            "order": "3"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "exchange and return",
+      "type": "box",
+      "uid": "ddaa94b3-f382-4c0a-bfb3-360e904df746",
+      "visual_logic": [
+        {
+          "condition": {
+            "connections": {
+              "node_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              },
+              "node_1_0": {
+                "success": {
+                  "node_1": {
+                    "order": 0
+                  }
+                }
+              }
+            },
+            "nodes": {
+              "node_0": {
+                "name": "Get page data",
+                "parameters": {
+                  "target": "Current Page Width"
+                },
+                "type": "inline-entry.GetPageData",
+                "uid": "node_0"
+              },
+              "node_1": {
+                "name": "<=",
+                "parameters": {
+                  "comparator": "<="
+                },
+                "type": "inline-node.Comparison",
+                "uid": "node_1"
+              },
+              "node_1_0": {
+                "name": 1050,
+                "parameters": {
+                  "value": 1050
+                },
+                "type": "inline-entry.Litteral",
+                "uid": "node_1_0"
+              }
+            }
+          },
+          "properties": {
+            "is_hidden": true
+          }
+        }
+      ]
+    },
+    "deed3b10-aeda-4fbf-866e-3063868c08f7": {
+      "children": [
+        "77ee0961-a5b3-4e4c-869d-0066724ab4c0",
+        "e95f8ec9-c530-4f8f-828b-2c2b14cb7d28",
+        "85acbc19-80af-4f67-ab9d-6753826888c9"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "val": "100"
+          },
+          "min": {
+            "val": ""
+          },
+          "type": "fixed"
+        },
+        "layout": {
+          "column_gap": {
+            "val": "10"
+          },
+          "direction": "row",
+          "distribution": "between"
+        },
+        "padding": {
+          "left": {
+            "unit": "rf",
+            "val": "1"
+          },
+          "right": {
+            "unit": "rf",
+            "val": "1"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "3",
+            "position": "stretch"
+          },
+          "flexible": "",
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Search form",
+      "type": "box",
+      "uid": "deed3b10-aeda-4fbf-866e-3063868c08f7"
+    },
+    "e0bf32ef-c4bc-49de-a671-50a84a894cef": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "a304704f-273f-4be5-aede-834a45b58b87",
+        "17869468-667e-4b41-815b-6cf42158131b",
+        "e0bf32ef-c4bc-49de-a671-50a84a894cef"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "center"
+        },
+        "padding": {
+          "right": {
+            "val": "5"
+          }
+        },
+        "position": {
+          "auto": {
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "New text component",
+      "properties": {
+        "text": "Generate new styles:"
+      },
+      "type": "text",
+      "uid": "e0bf32ef-c4bc-49de-a671-50a84a894cef"
+    },
+    "e0c95cc8-abbf-4221-9d7d-c543955984b0": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "f4a277b7-8f95-4549-875b-83c7d42ac321",
+        "71e12ff9-8c05-45f2-9357-8cd5d5d19e38",
+        "e0c95cc8-abbf-4221-9d7d-c543955984b0"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "order": "1"
+          },
+          "type": "auto"
+        },
+        "text": {
+          "alignment": "center",
+          "color": "#2d2d2d",
+          "line_height": "1.5",
+          "size": {
+            "unit": "px",
+            "val": "32"
+          }
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "discounts text",
+      "properties": {
+        "text": "Cute and Playful Animal-themed Toys"
+      },
+      "type": "text",
+      "uid": "e0c95cc8-abbf-4221-9d7d-c543955984b0"
+    },
+    "e649cd02-60fb-46fe-9b7c-8a81a2d4eb0c": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "a304704f-273f-4be5-aede-834a45b58b87",
+        "eb28dacd-50c9-432b-8c87-154837af25b2",
+        "e649cd02-60fb-46fe-9b7c-8a81a2d4eb0c"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "center"
+        },
+        "padding": {
+          "right": {
+            "val": "30"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "1",
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "New text component",
+      "properties": {
+        "text": "Upload new goods:"
+      },
+      "type": "text",
+      "uid": "e649cd02-60fb-46fe-9b7c-8a81a2d4eb0c"
+    },
+    "e762a90a-aed5-4ef3-9b81-ec6e30a10cdf": {
+      "children": [
+        "3c3a0a7d-6cf3-479f-a449-7b803239532a",
+        "841fa0ae-f5ae-4a25-8db9-ca498f3b28fd",
+        "fc6897d7-80f9-483c-9097-711808ad671b"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "e762a90a-aed5-4ef3-9b81-ec6e30a10cdf"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "direction": "row",
+          "distribution": "center"
+        },
+        "margin": {
+          "right": {
+            "unit": "rf",
+            "val": ""
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "4",
+            "position": "center"
+          },
+          "flexible": "1",
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Account settings",
+      "type": "box",
+      "uid": "e762a90a-aed5-4ef3-9b81-ec6e30a10cdf"
+    },
+    "e95f8ec9-c530-4f8f-828b-2c2b14cb7d28": {
+      "children": [
+        "b319ab23-a8ab-4efd-9b7f-50df033ad4a8"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "e95f8ec9-c530-4f8f-828b-2c2b14cb7d28"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "direction": "row",
+          "distribution": "start"
+        },
+        "position": {
+          "auto": {
+            "order": "3",
+            "position": "center"
+          },
+          "flexible": "3",
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "search form",
+      "type": "box",
+      "uid": "e95f8ec9-c530-4f8f-828b-2c2b14cb7d28"
+    },
+    "eaefea58-33fc-4d10-baae-dec6b5438303": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "edec0beb-c2be-422d-92e7-1b09d5521ed4",
+        "8bdc9dff-fe78-4502-ae5f-1de5062ee374",
+        "5f0b8b16-4c4e-4c52-ade6-be0d0d175bec",
+        "eaefea58-33fc-4d10-baae-dec6b5438303"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "margin": {
+          "top": {
+            "val": "6"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "1",
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "text": {
+          "alignment": "center"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "logic": {
+        "fffc3caf-1e52-49ee-b8b2-578c614a5666": {
+          "connections": {
+            "fffc3caf-1e52-49ee-b8b2-578c614a5666_trigger": {
+              "success": {
+                "222275be-ccaa-449d-8665-66e6fb331e28": {
+                  "order": 0,
+                  "to": "222275be-ccaa-449d-8665-66e6fb331e28",
+                  "uid": "222275be-ccaa-449d-8665-66e6fb331e28"
+                }
+              }
+            }
+          },
+          "execution_order": 1,
+          "name": "On Click",
+          "nodes": {
+            "222275be-ccaa-449d-8665-66e6fb331e28": {
+              "name": "Create item in DB",
+              "parameters": {
+                "assetType": "fbf0f2b7-de07-4224-ab53-540a4f4883c4",
+                "data": {
+                  "057ce292-924d-41ac-b58a-4dbac33e5c5c": "@@{\"nodes\":{\"node_0\":{\"uid\":\"node_0\",\"name\":\"Get element\",\"type\":\"inline-entry.GetCurrentCellItem\",\"parameters\":{\"target\":\"65a14709-b649-4fb7-ad0e-0acbb2529d2f\"}}},\"connections\":{}}@@",
+                  "0fe9218b-9d8b-4633-ab95-be459e5b8691": "@@{\"nodes\":{\"node_0\":{\"uid\":\"node_0\",\"name\":\"Get element\",\"type\":\"inline-entry.GetCurrentCellItem\",\"parameters\":{\"target\":\"e3c7d9f5-a70c-4400-98e0-782bf7405428\"}}},\"connections\":{}}@@"
+                }
+              },
+              "type": "action.dbCreate",
+              "uid": "222275be-ccaa-449d-8665-66e6fb331e28"
+            },
+            "fffc3caf-1e52-49ee-b8b2-578c614a5666_trigger": {
+              "name": "On press",
+              "type": "trigger.onClick",
+              "uid": "fffc3caf-1e52-49ee-b8b2-578c614a5666_trigger"
+            }
+          },
+          "uid": "fffc3caf-1e52-49ee-b8b2-578c614a5666"
+        }
+      },
+      "name": "AddToCartText",
+      "properties": {
+        "text": "Add to cart"
+      },
+      "type": "text",
+      "uid": "eaefea58-33fc-4d10-baae-dec6b5438303"
+    },
+    "eb0134ca-11a7-49a3-b93a-ccd63e81f3f3": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+        "b1ebcd64-5acf-4975-b302-6a7e4590ff67",
+        "adb3f941-d2ca-4a43-91ab-d0a457765b47",
+        "eb0134ca-11a7-49a3-b93a-ccd63e81f3f3"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "val": "30"
+          },
+          "type": "fixed"
+        },
+        "position": {
+          "auto": {
+            "order": "1"
+          },
+          "type": "auto"
+        },
+        "text": {
+          "size": {
+            "unit": "px",
+            "val": "30"
+          }
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Title",
+      "properties": {
+        "text": "Your cart"
+      },
+      "type": "text",
+      "uid": "eb0134ca-11a7-49a3-b93a-ccd63e81f3f3"
+    },
+    "eb28dacd-50c9-432b-8c87-154837af25b2": {
+      "children": [
+        "cfb1d949-446a-4725-8cab-0928a581239a",
+        "e649cd02-60fb-46fe-9b7c-8a81a2d4eb0c"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "a304704f-273f-4be5-aede-834a45b58b87",
+        "eb28dacd-50c9-432b-8c87-154837af25b2"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "direction": "row"
+        },
+        "position": {
+          "auto": {
+            "order": "1"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Main actions container",
+      "type": "box",
+      "uid": "eb28dacd-50c9-432b-8c87-154837af25b2"
+    },
+    "ebce6849-ad19-4d32-8d54-87ef0d9f81e9": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "78b7174a-945b-4fc3-bb30-399fcb637a6d",
+        "57193cbd-dd8f-4539-8988-9c5b7abfa8bb",
+        "84dc52f9-065f-4734-8998-b116a81c2401",
+        "ebce6849-ad19-4d32-8d54-87ef0d9f81e9"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "delivery",
+      "properties": {
+        "text": "Delivery"
+      },
+      "type": "text",
+      "uid": "ebce6849-ad19-4d32-8d54-87ef0d9f81e9"
+    },
+    "edec0beb-c2be-422d-92e7-1b09d5521ed4": {
+      "children": [
+        "8bdc9dff-fe78-4502-ae5f-1de5062ee374"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "edec0beb-c2be-422d-92e7-1b09d5521ed4"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "direction": "rowWrap",
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "order": "6",
+            "position": "center"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "data": {
+        "listData": {
+          "item_type": "object",
+          "name": "list of items",
+          "type": "list",
+          "uid": "34093c96-c3ca-4a08-aae9-b349ceebb738"
+        }
+      },
+      "name": "Repeating group",
+      "properties": {
+        "is_hidden": false,
+        "list_of_items": {
+          "nodes": {
+            "n_0": {
+              "name": "Get element",
+              "parameters": {
+                "constraint": {
+                  "comparator": "=",
+                  "key": "assetType",
+                  "value": "34093c96-c3ca-4a08-aae9-b349ceebb738"
+                }
+              },
+              "type": "inline-entry.dbRead",
+              "uid": "n_0"
+            }
+          }
+        },
+        "numColumns": "4"
+      },
+      "type": "boxList",
+      "uid": "edec0beb-c2be-422d-92e7-1b09d5521ed4"
+    },
+    "ee64b9a7-325d-4764-920f-4bc6c10acd42": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+        "b1ebcd64-5acf-4975-b302-6a7e4590ff67",
+        "8bbab257-8c5b-4957-a845-6f89fdfb95f8",
+        "3e6c2362-beb3-4747-bd4b-0947ec140bc2",
+        "87a7c506-94cb-4756-bf7b-8950076d85ab",
+        "f66d7c4d-49c2-4858-9005-ebebf95ccf69",
+        "004cbb1c-ea4f-4639-a70b-b0e01a71e68f",
+        "ee64b9a7-325d-4764-920f-4bc6c10acd42"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "@871f93b9-1985-4491-95a3-c64b92507aa1",
+          "type": "color"
+        },
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "distribution": "center"
+        },
+        "padding": {
+          "bottom": {
+            "val": "3"
+          },
+          "left": {
+            "val": "5"
+          },
+          "right": {
+            "val": "5"
+          },
+          "top": {
+            "val": "3"
+          }
+        },
+        "position": {
+          "type": "auto"
+        },
+        "radius": {
+          "bottom_left": {
+            "unit": "px",
+            "val": "5"
+          },
+          "bottom_right": {
+            "unit": "px",
+            "val": "5"
+          },
+          "top_left": {
+            "unit": "px",
+            "val": "5"
+          },
+          "top_right": {
+            "unit": "px",
+            "val": "5"
+          }
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "-",
+      "properties": {
+        "text": "-"
+      },
+      "type": "text",
+      "uid": "ee64b9a7-325d-4764-920f-4bc6c10acd42"
+    },
+    "efa44b0a-46c0-4e1d-8589-a0f1ba6c9133": {
+      "children": [
+        "ad57df70-2ed4-4983-a3a8-a1f986497cbe"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "85acbc19-80af-4f67-ab9d-6753826888c9",
+        "efa44b0a-46c0-4e1d-8589-a0f1ba6c9133"
+      ],
+      "custom_styling": {
+        "height": {
+          "fixed": {
+            "val": "28"
+          },
+          "type": "fit"
+        },
+        "position": {
+          "auto": {
+            "order": "1"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": "28"
+          },
+          "type": "fit"
+        }
+      },
+      "name": "Account",
+      "type": "box",
+      "uid": "efa44b0a-46c0-4e1d-8589-a0f1ba6c9133"
+    },
+    "f4a277b7-8f95-4549-875b-83c7d42ac321": {
+      "children": [
+        "71e12ff9-8c05-45f2-9357-8cd5d5d19e38",
+        "be645ad9-4c2c-4e04-adf4-25a575cff770"
+      ],
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "f4a277b7-8f95-4549-875b-83c7d42ac321"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "@871f93b9-1985-4491-95a3-c64b92507aa1",
+          "type": "color"
+        },
+        "height": {
+          "fixed": {
+            "val": "200"
+          },
+          "type": "fixed"
+        },
+        "layout": {
+          "column_gap": {
+            "val": "16"
+          },
+          "direction": "row",
+          "distribution": "between"
+        },
+        "padding": {
+          "bottom": {
+            "val": "40"
+          },
+          "left": {
+            "val": "32"
+          },
+          "right": {
+            "val": "32"
+          },
+          "top": {
+            "val": "40"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "5"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Main title container",
+      "type": "box",
+      "uid": "f4a277b7-8f95-4549-875b-83c7d42ac321"
+    },
+    "f66d7c4d-49c2-4858-9005-ebebf95ccf69": {
+      "children": [
+        "004cbb1c-ea4f-4639-a70b-b0e01a71e68f",
+        "57284b79-3933-4940-931b-15622f7194ec"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "f944626f-4cc3-4327-9a3b-de7fe48cb536",
+        "b1ebcd64-5acf-4975-b302-6a7e4590ff67",
+        "8bbab257-8c5b-4957-a845-6f89fdfb95f8",
+        "3e6c2362-beb3-4747-bd4b-0947ec140bc2",
+        "87a7c506-94cb-4756-bf7b-8950076d85ab",
+        "f66d7c4d-49c2-4858-9005-ebebf95ccf69"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "direction": "column"
+        },
+        "padding": {
+          "bottom": {
+            "val": ""
+          },
+          "left": {
+            "val": "30"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "2",
+            "position": "flex-start"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "fixed": {
+            "val": ""
+          },
+          "max": {
+            "unit": "%",
+            "val": ""
+          },
+          "min": {
+            "val": ""
+          },
+          "type": "expand"
+        }
+      },
+      "name": "Item desc",
+      "type": "box",
+      "uid": "f66d7c4d-49c2-4858-9005-ebebf95ccf69"
+    },
+    "f944626f-4cc3-4327-9a3b-de7fe48cb536": {
+      "children": [
+        "b1ebcd64-5acf-4975-b302-6a7e4590ff67"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "f944626f-4cc3-4327-9a3b-de7fe48cb536"
+      ],
+      "custom_styling": {
+        "background": {
+          "color": "#877e7e61",
+          "type": "color"
+        },
+        "height": {
+          "type": "fit"
+        },
+        "layout": {
+          "direction": "column",
+          "distribution": "center"
+        },
+        "position": {
+          "relative": {
+            "bottom": {
+              "val": "0"
+            },
+            "left": {
+              "val": "0"
+            },
+            "right": {
+              "val": "0"
+            },
+            "top": {
+              "val": "0"
+            }
+          },
+          "type": "fixed"
+        },
+        "width": {
+          "min": {
+            "val": ""
+          }
+        }
+      },
+      "name": "Cart modal",
+      "properties": {
+        "is_hidden": true
+      },
+      "type": "modal",
+      "uid": "f944626f-4cc3-4327-9a3b-de7fe48cb536"
+    },
+    "f9f2ffe8-2b28-41f3-8d50-b8d0640584b0": {
+      "composite_key": [
+        "680545c9-a673-468f-abe4-9348b74061cf",
+        "deed3b10-aeda-4fbf-866e-3063868c08f7",
+        "77ee0961-a5b3-4e4c-869d-0066724ab4c0",
+        "d43f59b9-1b4f-44b3-95f0-b71428197c44",
+        "f9f2ffe8-2b28-41f3-8d50-b8d0640584b0"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "margin": {
+          "top": {
+            "val": "16"
+          }
+        },
+        "position": {
+          "auto": {
+            "order": "2"
+          },
+          "type": "auto"
+        },
+        "text": {
+          "alignment": "left",
+          "color": "#FFFFFF",
+          "size": {
+            "unit": "px",
+            "val": "18"
+          }
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Catalog",
+      "properties": {
+        "text": "Catalog"
+      },
+      "type": "text",
+      "uid": "f9f2ffe8-2b28-41f3-8d50-b8d0640584b0"
+    },
+    "fb38132e-a1be-417c-81b3-c1d8a62e05a8": {
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "78b7174a-945b-4fc3-bb30-399fcb637a6d",
+        "57193cbd-dd8f-4539-8988-9c5b7abfa8bb",
+        "85428dd8-0f75-42fe-a123-ba8b0f18e245",
+        "fb38132e-a1be-417c-81b3-c1d8a62e05a8"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "type": "auto"
+        },
+        "text": {
+          "color": "#2d2d2d"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Payment",
+      "properties": {
+        "text": "Payment"
+      },
+      "type": "text",
+      "uid": "fb38132e-a1be-417c-81b3-c1d8a62e05a8"
+    },
+    "fc6897d7-80f9-483c-9097-711808ad671b": {
+      "children": [
+        "52633f26-7e0a-4fee-932b-d61995b15c79",
+        "cd436171-fcb1-499c-952c-1413b9dd1ca5"
+      ],
+      "composite_key": [
+        "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+        "2247301b-3ade-4371-a717-2a56ceb61f7a",
+        "e762a90a-aed5-4ef3-9b81-ec6e30a10cdf",
+        "fc6897d7-80f9-483c-9097-711808ad671b"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "position": {
+          "auto": {
+            "order": "3"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "Cart",
+      "type": "box",
+      "uid": "fc6897d7-80f9-483c-9097-711808ad671b"
+    },
+    "rootElementContainer": {
+      "children": [
+        "childComponent"
+      ],
+      "composite_key": [
+        "rootElementContainer"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "expand"
+        },
+        "layout": {
+          "direction": "column",
+          "distribution": "center"
+        },
+        "position": {
+          "auto": {
+            "position": "stretch"
+          },
+          "relative": {
+            "vertical": "center"
+          },
+          "type": "auto"
+        },
+        "width": {
+          "type": "expand"
+        }
+      },
+      "name": "Main Container",
+      "type": "box",
+      "uid": "rootElementContainer"
+    },
+    "textComponent": {
+      "composite_key": [
+        "rootElementContainer",
+        "childComponent",
+        "textComponent"
+      ],
+      "custom_styling": {
+        "height": {
+          "type": "fit"
+        },
+        "text": {
+          "alignment": "center"
+        },
+        "width": {
+          "type": "fit"
+        }
+      },
+      "name": "New text component",
+      "properties": {
+        "text": "Lorem Ipsum"
+      },
+      "type": "text",
+      "uid": "textComponent"
+    }
+  },
+  "data_model": {
+    "34093c96-c3ca-4a08-aae9-b349ceebb738": {
+      "id": "34093c96-c3ca-4a08-aae9-b349ceebb738",
+      "name": "items",
+      "named_properties": {
+        "2cbfb477-a72f-4a9d-af0a-ef54652edc67": {
+          "name": "Description"
+        },
+        "49173396-91b9-49fc-9d23-920dfc94d476": {
+          "default": "",
+          "name": "CreatedAt",
+          "type": "datetime"
+        },
+        "53489d81-da5e-43e9-9f01-f89fa499e4d6": {
+          "default": "",
+          "name": "CreatedBy",
+          "type": "datetime"
+        },
+        "65a14709-b649-4fb7-ad0e-0acbb2529d2f": {
+          "name": "Picture",
+          "type": "image"
+        },
+        "a5a89181-e29e-4392-a7f1-e86fdbaf987c": {
+          "name": "Price",
+          "type": "number"
+        },
+        "bc847fdb-4c9c-44a9-a45c-3f1b3fe2f62e": {
+          "default": "",
+          "name": "Id",
+          "type": "number"
+        },
+        "e3c7d9f5-a70c-4400-98e0-782bf7405428": {
+          "default": "",
+          "name": "Name"
+        }
+      },
+      "type": "object"
+    },
+    "fbf0f2b7-de07-4224-ab53-540a4f4883c4": {
+      "id": "fbf0f2b7-de07-4224-ab53-540a4f4883c4",
+      "name": "Cart",
+      "named_properties": {
+        "057ce292-924d-41ac-b58a-4dbac33e5c5c": {
+          "name": "Image",
+          "type": "image"
+        },
+        "0fe9218b-9d8b-4633-ab95-be459e5b8691": {
+          "name": "Name"
+        },
+        "59aabe8c-1efc-4027-a148-a9f9ab486c20": {
+          "default": "",
+          "name": "Id",
+          "type": "number"
+        },
+        "7df530f4-a5a6-49e5-9c69-3725b344c86d": {
+          "default": "",
+          "name": "CreatedBy",
+          "type": "datetime"
+        },
+        "945e59fa-1fb6-45b8-b370-4e90030f4712": {
+          "default": "",
+          "name": "CreatedAt",
+          "type": "datetime"
+        }
+      },
+      "type": "object"
+    }
+  },
+  "design_system": {
+    "colours": {
+      "2c23fb41-25d9-46da-8747-c9435d56233b": {
+        "color": "#FFFFFF",
+        "description": "Text color",
+        "name": "White text",
+        "type": "Main colors",
+        "uid": "2c23fb41-25d9-46da-8747-c9435d56233b"
+      },
+      "871f93b9-1985-4491-95a3-c64b92507aa1": {
+        "color": "#f77f0050",
+        "description": "Sub color of the app",
+        "name": "subColor",
+        "type": "Main colors",
+        "uid": "871f93b9-1985-4491-95a3-c64b92507aa1"
+      },
+      "dce2d862-9554-40c5-a1d1-25c0e4958fd8": {
+        "color": "#2d2d2d",
+        "description": "Text color",
+        "name": "Text color",
+        "type": "Main colors",
+        "uid": "dce2d862-9554-40c5-a1d1-25c0e4958fd8"
+      },
+      "f44bec20-fc89-410d-bc93-efd534b18a4d": {
+        "color": "#f77f00",
+        "description": "Main color of the app",
+        "name": "mainColor",
+        "type": "Main colors",
+        "uid": "f44bec20-fc89-410d-bc93-efd534b18a4d"
+      }
+    },
+    "responsive_factor": {
+      "desktop": 14,
+      "mobile": 12,
+      "tablet": 13,
+      "xl": 16
+    }
+  },
+  "page_index": "page_bbb27b2e-3430-42cf-9b1d-73da112257d0",
+  "pages": {
+    "page_680545c9-a673-468f-abe4-9348b74061cf": {
+      "name": "Backoffice",
+      "root_component": "680545c9-a673-468f-abe4-9348b74061cf",
+      "uid": "page_680545c9-a673-468f-abe4-9348b74061cf"
+    },
+    "page_bbb27b2e-3430-42cf-9b1d-73da112257d0": {
+      "name": "Main Page",
+      "root_component": "bbb27b2e-3430-42cf-9b1d-73da112257d0",
+      "uid": "page_bbb27b2e-3430-42cf-9b1d-73da112257d0"
+    }
+  }
+}

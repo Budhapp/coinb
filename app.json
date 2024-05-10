@@ -1,0 +1,35 @@
+{
+   "expo": {
+      "name": "engine",
+      "slug": "engine",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/icon.png",
+      "userInterfaceStyle": "light",
+      "splash": {
+         "image": "./assets/splash.png",
+         "resizeMode": "contain",
+         "backgroundColor": "#ffffff"
+      },
+      "assetBundlePatterns": ["**/*"],
+      "ios": {
+         "bundleIdentifier": "app.budhapp.foundersdao",
+         "supportsTablet": true
+      },
+      "android": {
+         "package": "app.budhapp.foundersdao",
+         "adaptiveIcon": {
+            "foregroundImage": "./assets/adaptive-icon.png",
+            "backgroundColor": "#ffffff"
+         }
+      },
+      "web": {
+         "ouptut": "single",
+         "bundler": "metro",
+         "favicon": "./assets/favicon.png"
+      },
+      "extra": {
+         "projectId": "494991dd-9a18-4ee1-b8a4-9c1e48a667f3"
+      }
+   }
+}

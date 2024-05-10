@@ -1,0 +1,607 @@
+{
+    "components": {
+      "121bc4ba-69b0-4278-8668-7c1806c8d895": {
+        "composite_key": [
+          "21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b",
+          "76ffc844-3598-46f1-b5fa-86127d38aa18",
+          "121bc4ba-69b0-4278-8668-7c1806c8d895"
+        ],
+        "description": "Header Logo, that redirects on home when clicked",
+        "logic": {
+          "navigation_home": {
+            "connections": {
+              "onPress": {
+                "success": {
+                  "goHome": {
+                    "order": 0,
+                    "to": "goHome",
+                    "uid": "goHome"
+                  }
+                }
+              }
+            },
+            "nodes": {
+              "goHome": {
+                "name": "Navigate Home",
+                "parameters": {
+                  "target": "page_21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b"
+                },
+                "type": "action.navigate",
+                "uid": "goHome"
+              },
+              "onPress": {
+                "name": "On press",
+                "type": "trigger.onClick",
+                "uid": "onPress"
+              }
+            },
+            "uid": "navigation_home"
+          }
+        },
+        "name": "Navigation logo",
+        "properties": {
+          "image": ""
+        },
+        "style": "logo",
+        "type": "image",
+        "uid": "121bc4ba-69b0-4278-8668-7c1806c8d895"
+      },
+      "21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b": {
+        "children": [
+          "76ffc844-3598-46f1-b5fa-86127d38aa18",
+          "9ee71596-3797-42dc-9b55-99261bab88c6"
+        ],
+        "composite_key": [
+          "21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b"
+        ],
+        "custom_styling": {
+          "height": {
+            "type": "expand"
+          },
+          "position": {
+            "type": "auto"
+          },
+          "width": {
+            "type": "expand"
+          }
+        },
+        "name": "Main Container",
+        "type": "box",
+        "uid": "21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b"
+      },
+      "3115797b-97c1-4052-8905-69aea4135689": {
+        "composite_key": [
+          "21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b",
+          "76ffc844-3598-46f1-b5fa-86127d38aa18",
+          "b7a01691-0430-42af-9f3e-ed1f1a9d7d2e",
+          "3115797b-97c1-4052-8905-69aea4135689"
+        ],
+        "description": "Navigation element to Social Proof section.",
+        "name": "nav: Social Proof",
+        "properties": {
+          "text": "Social Proof"
+        },
+        "style": "navigationItem",
+        "type": "text",
+        "uid": "3115797b-97c1-4052-8905-69aea4135689"
+      },
+      "396a1bec-cac4-4f40-bb60-04e1b6c90991": {
+        "composite_key": [
+          "21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b",
+          "76ffc844-3598-46f1-b5fa-86127d38aa18",
+          "b7a01691-0430-42af-9f3e-ed1f1a9d7d2e",
+          "396a1bec-cac4-4f40-bb60-04e1b6c90991"
+        ],
+        "description": "Navigation element to Unique Value Proposition section.",
+        "name": "nav: Unique Value Proposition",
+        "properties": {
+          "text": "Unique Value Proposition"
+        },
+        "style": "navigationItem",
+        "type": "text",
+        "uid": "396a1bec-cac4-4f40-bb60-04e1b6c90991"
+      },
+      "5988d85d-5c02-49c7-beb8-f264d294ed52": {
+        "children": [
+          "f9095d35-63ff-470a-8a18-e64365d69fa6",
+          "5b465dd3-009c-4481-96c4-9c0a73e4056b"
+        ],
+        "composite_key": [
+          "21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b",
+          "9ee71596-3797-42dc-9b55-99261bab88c6",
+          "5988d85d-5c02-49c7-beb8-f264d294ed52"
+        ],
+        "custom_styling": {
+          "height": {
+            "type": "fit"
+          },
+          "layout": {
+            "direction": "column",
+            "row_gap": {
+              "unit": "rf",
+              "val": 1.5
+            }
+          },
+          "position": {
+            "auto": {
+              "position": "start"
+            }
+          }
+        },
+        "description": "Contains the content (title, subtitle) of the Hero section.",
+        "name": "Hero Content",
+        "type": "box",
+        "uid": "5988d85d-5c02-49c7-beb8-f264d294ed52"
+      },
+      "5b465dd3-009c-4481-96c4-9c0a73e4056b": {
+        "composite_key": [
+          "21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b",
+          "9ee71596-3797-42dc-9b55-99261bab88c6",
+          "5988d85d-5c02-49c7-beb8-f264d294ed52",
+          "5b465dd3-009c-4481-96c4-9c0a73e4056b"
+        ],
+        "custom_styling": {
+          "text": {
+            "alignment": "center",
+            "color": "@primary_default",
+            "line_height": 1,
+            "size": {
+              "unit": "rf",
+              "val": 3
+            }
+          },
+          "width": {
+            "type": "fit"
+          }
+        },
+        "description": "Main subtitle of the app.",
+        "name": "Subtitle",
+        "properties": {
+          "text": "Unleashing the Potential of Startups"
+        },
+        "type": "text",
+        "uid": "5b465dd3-009c-4481-96c4-9c0a73e4056b"
+      },
+      "70714331-d9f8-43c1-8b93-746aed5ef85a": {
+        "composite_key": [
+          "21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b",
+          "76ffc844-3598-46f1-b5fa-86127d38aa18",
+          "b7a01691-0430-42af-9f3e-ed1f1a9d7d2e",
+          "70714331-d9f8-43c1-8b93-746aed5ef85a"
+        ],
+        "description": "Navigation element to Use Cases section.",
+        "name": "nav: Use Cases",
+        "properties": {
+          "text": "Use Cases"
+        },
+        "style": "navigationItem",
+        "type": "text",
+        "uid": "70714331-d9f8-43c1-8b93-746aed5ef85a"
+      },
+      "76ffc844-3598-46f1-b5fa-86127d38aa18": {
+        "children": [
+          "121bc4ba-69b0-4278-8668-7c1806c8d895",
+          "b7a01691-0430-42af-9f3e-ed1f1a9d7d2e"
+        ],
+        "composite_key": [
+          "21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b",
+          "76ffc844-3598-46f1-b5fa-86127d38aa18"
+        ],
+        "custom_styling": {
+          "background": {
+            "color": "#FFFFFF80",
+            "type": "color"
+          },
+          "layout": {
+            "column_gap": {
+              "unit": "rf",
+              "val": 2
+            },
+            "direction": "row",
+            "distribution": "between"
+          },
+          "position": {
+            "fixed": {
+              "left": 0,
+              "right": 0,
+              "top": 0
+            },
+            "type": "fixed"
+          }
+        },
+        "description": "Site logo and simple navigation with links to key sections such as Home, About Us, Services, Portfolio, Partners, Contact Us.",
+        "name": "Header Navigation+Logo",
+        "type": "box",
+        "uid": "76ffc844-3598-46f1-b5fa-86127d38aa18"
+      },
+      "9133f2ac-59b5-4a96-ac74-1ead14cdd5e5": {
+        "composite_key": [
+          "21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b",
+          "76ffc844-3598-46f1-b5fa-86127d38aa18",
+          "b7a01691-0430-42af-9f3e-ed1f1a9d7d2e",
+          "9133f2ac-59b5-4a96-ac74-1ead14cdd5e5"
+        ],
+        "description": "Navigation element to Problem Statement section.",
+        "name": "nav: Problem Statement",
+        "properties": {
+          "text": "Problem Statement"
+        },
+        "style": "navigationItem",
+        "type": "text",
+        "uid": "9133f2ac-59b5-4a96-ac74-1ead14cdd5e5"
+      },
+      "9ee71596-3797-42dc-9b55-99261bab88c6": {
+        "children": [
+          "5988d85d-5c02-49c7-beb8-f264d294ed52"
+        ],
+        "composite_key": [
+          "21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b",
+          "9ee71596-3797-42dc-9b55-99261bab88c6"
+        ],
+        "custom_styling": {
+          "background": {
+            "type": "image"
+          },
+          "height": {
+            "fixed": {
+              "unit": "vh",
+              "val": 100
+            },
+            "type": "fixed"
+          },
+          "margin": {
+            "bottom_left": {
+              "unit": "rf",
+              "val": 1
+            },
+            "bottom_right": {
+              "unit": "rf",
+              "val": 1
+            },
+            "right": {
+              "unit": "rf",
+              "val": 1
+            },
+            "top": {
+              "unit": "rf",
+              "val": 1
+            }
+          },
+          "padding": {
+            "bottom_left": {
+              "unit": "rf",
+              "val": 1
+            },
+            "bottom_right": {
+              "unit": "rf",
+              "val": 1
+            },
+            "right": {
+              "unit": "rf",
+              "val": 1
+            },
+            "top": {
+              "unit": "rf",
+              "val": 1
+            }
+          },
+          "radius": {
+            "bottom": {
+              "unit": "rf",
+              "val": 1
+            },
+            "left": {
+              "unit": "rf",
+              "val": 1
+            },
+            "top_left": {
+              "unit": "rf",
+              "val": 1
+            },
+            "top_right": {
+              "unit": "rf",
+              "val": 1
+            }
+          }
+        },
+        "description": "Captivating image/video featuring entrepreneurs working on impact tech projects with a headline conveying the essence of dFounders as a startup builder backed by PACA region, BPI, and Founders Ventures, leading to a clear call to action such as \"Start Your Impact Tech Startup Today!\"",
+        "name": "Hero Section",
+        "properties": {
+          "image": ""
+        },
+        "type": "box",
+        "uid": "9ee71596-3797-42dc-9b55-99261bab88c6"
+      },
+      "b7a01691-0430-42af-9f3e-ed1f1a9d7d2e": {
+        "children": [
+          "9133f2ac-59b5-4a96-ac74-1ead14cdd5e5",
+          "396a1bec-cac4-4f40-bb60-04e1b6c90991",
+          "70714331-d9f8-43c1-8b93-746aed5ef85a",
+          "eb242612-a5ad-4996-a981-4092407b8cf5",
+          "3115797b-97c1-4052-8905-69aea4135689",
+          "f46a253b-a28b-4d16-a302-f732f6bbc2a6"
+        ],
+        "composite_key": [
+          "21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b",
+          "76ffc844-3598-46f1-b5fa-86127d38aa18",
+          "b7a01691-0430-42af-9f3e-ed1f1a9d7d2e"
+        ],
+        "custom_styling": {
+          "layout": {
+            "column_gap": {
+              "unit": "rf",
+              "val": 1
+            },
+            "direction": "row",
+            "distribution": "between"
+          }
+        },
+        "description": "Links towards the main parts of the page for quick access",
+        "name": "Main Navigation",
+        "type": "box",
+        "uid": "b7a01691-0430-42af-9f3e-ed1f1a9d7d2e"
+      },
+      "eb242612-a5ad-4996-a981-4092407b8cf5": {
+        "composite_key": [
+          "21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b",
+          "76ffc844-3598-46f1-b5fa-86127d38aa18",
+          "b7a01691-0430-42af-9f3e-ed1f1a9d7d2e",
+          "eb242612-a5ad-4996-a981-4092407b8cf5"
+        ],
+        "description": "Navigation element to About Us section.",
+        "name": "nav: About Us",
+        "properties": {
+          "text": "About Us"
+        },
+        "style": "navigationItem",
+        "type": "text",
+        "uid": "eb242612-a5ad-4996-a981-4092407b8cf5"
+      },
+      "f46a253b-a28b-4d16-a302-f732f6bbc2a6": {
+        "composite_key": [
+          "21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b",
+          "76ffc844-3598-46f1-b5fa-86127d38aa18",
+          "b7a01691-0430-42af-9f3e-ed1f1a9d7d2e",
+          "f46a253b-a28b-4d16-a302-f732f6bbc2a6"
+        ],
+        "description": "Navigation element to Trust Signal section.",
+        "name": "nav: Trust Signal",
+        "properties": {
+          "text": "Trust Signal"
+        },
+        "style": "navigationItem",
+        "type": "text",
+        "uid": "f46a253b-a28b-4d16-a302-f732f6bbc2a6"
+      },
+      "f9095d35-63ff-470a-8a18-e64365d69fa6": {
+        "composite_key": [
+          "21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b",
+          "9ee71596-3797-42dc-9b55-99261bab88c6",
+          "5988d85d-5c02-49c7-beb8-f264d294ed52",
+          "f9095d35-63ff-470a-8a18-e64365d69fa6"
+        ],
+        "custom_styling": {
+          "text": {
+            "alignment": "center",
+            "color": "@primary_default",
+            "line_height": 1,
+            "size": {
+              "unit": "rf",
+              "val": 7
+            }
+          },
+          "width": {
+            "type": "fit"
+          }
+        },
+        "description": "Main title of the app.",
+        "name": "Main Title",
+        "properties": {
+          "text": "Empowering Startups with dFounders"
+        },
+        "type": "text",
+        "uid": "f9095d35-63ff-470a-8a18-e64365d69fa6"
+      },
+      "childComponent": {
+        "children": [
+          "textComponent"
+        ],
+        "composite_key": [
+          "rootElementContainer",
+          "childComponent"
+        ],
+        "custom_styling": {
+          "border": {
+            "bottom": {
+              "color": "#000000",
+              "style": "solid",
+              "width": {
+                "unit": "px",
+                "val": "1"
+              }
+            },
+            "left": {
+              "color": "#000000",
+              "style": "solid",
+              "width": {
+                "unit": "px",
+                "val": "1"
+              }
+            },
+            "right": {
+              "color": "#000000",
+              "style": "solid",
+              "width": {
+                "unit": "px",
+                "val": "1"
+              }
+            },
+            "top": {
+              "color": "#000000",
+              "style": "solid",
+              "width": {
+                "unit": "px",
+                "val": "1"
+              }
+            }
+          },
+          "height": {
+            "min": {
+              "unit": "px",
+              "val": "40"
+            }
+          },
+          "layout": {
+            "direction": "column",
+            "distribution": "center"
+          },
+          "position": {
+            "auto": {
+              "position": "center"
+            }
+          },
+          "radius": {
+            "bottom_left": {
+              "unit": "px",
+              "val": "12"
+            },
+            "bottom_right": {
+              "unit": "px",
+              "val": "12"
+            },
+            "top_left": {
+              "unit": "px",
+              "val": "12"
+            },
+            "top_right": {
+              "unit": "px",
+              "val": "12"
+            }
+          },
+          "width": {
+            "fixed": {
+              "unit": "px",
+              "val": "200"
+            },
+            "type": "fixed"
+          }
+        },
+        "name": "New box component",
+        "type": "box",
+        "uid": "childComponent"
+      },
+      "rootElementContainer": {
+        "children": [
+          "childComponent"
+        ],
+        "composite_key": [
+          "rootElementContainer"
+        ],
+        "custom_styling": {
+          "height": {
+            "type": "expand"
+          },
+          "layout": {
+            "direction": "column",
+            "distribution": "center"
+          },
+          "position": {
+            "auto": {
+              "position": "stretch"
+            },
+            "relative": {
+              "vertical": "center"
+            },
+            "type": "auto"
+          },
+          "width": {
+            "type": "expand"
+          }
+        },
+        "name": "Main Container",
+        "type": "box",
+        "uid": "rootElementContainer"
+      },
+      "textComponent": {
+        "composite_key": [
+          "rootElementContainer",
+          "childComponent",
+          "textComponent"
+        ],
+        "custom_styling": {
+          "height": {
+            "type": "fit"
+          },
+          "text": {
+            "alignment": "center"
+          },
+          "width": {
+            "type": "fit"
+          }
+        },
+        "name": "New text component",
+        "properties": {
+          "text": "Lorem Ipsum"
+        },
+        "type": "text",
+        "uid": "textComponent"
+      }
+    },
+    "design_system": {
+      "responsive_factor": {
+        "desktop": 14,
+        "mobile": 12,
+        "tablet": 13,
+        "xl": 16
+      },
+      "user_styles": {
+        "logo": {
+          "custom_styling": {
+            "height": {
+              "fixed": {
+                "unit": "rf",
+                "val": 6
+              },
+              "type": "fixed"
+            }
+          },
+          "label": "Logo",
+          "name": "Logo",
+          "uid": "logo"
+        },
+        "navigationItem": {
+          "custom_styling": {
+            "text": {
+              "color": "rgba(@primary_contrast_default_rgb, 0.6)",
+              "font": "Roboto",
+              "line_height": 1.2,
+              "size": {
+                "unit": "rf",
+                "val": 1.2
+              }
+            },
+            "width": {
+              "type": "fit"
+            }
+          },
+          "label": "Navigation Item",
+          "name": "Navigation Item",
+          "styling": {
+            "width": {
+              "type": "fit"
+            }
+          },
+          "uid": "navigationItem"
+        }
+      }
+    },
+    "page_index": "page_21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b",
+    "pages": {
+      "page_21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b": {
+        "name": "Main Page",
+        "root_component": "21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b",
+        "uid": "page_21907ce0-68e2-4b6c-ac36-d42d0d1c2f6b"
+      }
+    }
+  }
+  

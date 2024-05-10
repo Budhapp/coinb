@@ -1,0 +1,710 @@
+{
+  "design_system": {
+    "responsive_factor": {
+      "mobile": 9,
+      "tablet": 10,
+      "desktop": 12,
+      "xl": 14
+    },
+    "colours": {
+      "primary_default": "rgba(71, 176, 113, 1)",
+      "contrast_default": "rgba(58, 77, 143, 1)",
+      "text_default": "rgba(50, 67, 128, 1)",
+      "surface_default": "rgba(9, 23, 71, 1)",
+      "background_default": "rgba(153, 153, 153, 1)",
+      "destructive_default": "rgba(214, 39, 85, 1)",
+      "success_default": "rgba(255, 255, 255, 1)",
+      "cmNyr_default": "rgba(100, 109, 114, 1)"
+    },
+    "fonts": [],
+    "user_styles": {}
+  },
+  "page_index": "cmNzt",
+  "pages": {
+    "cmNzt": {
+      "ico": "",
+      "type": "box",
+      "uid": "cmNzt",
+      "name": "test_crud",
+      "order": 0,
+      "custom_styling": {
+        "layout": {
+          "direction": "row",
+          "distribution": "center"
+        }
+      },
+      "properties": {
+        "is_hidden": false
+      },
+      "composite_key": [
+        "pages",
+        "cmNzt"
+      ],
+      "children": {
+        "cmNzv": {
+          "type": "box",
+          "uid": "cmNzv",
+          "name": "TO DO",
+          "order": 1,
+          "custom_styling": {
+            "width": {
+              "type": "fit"
+            },
+            "layout": {
+              "direction": "column",
+              "distribution": "center"
+            },
+            "position": {
+              "type": "auto",
+              "auto": {
+                "order": 1,
+                "position": "center"
+              }
+            }
+          },
+          "properties": {
+            "is_hidden": false
+          },
+          "composite_key": [
+            "pages",
+            "cmNzt",
+            "cmNzv"
+          ],
+          "style": "Group_default_group_",
+          "children": {
+            "cmOAL": {
+              "type": "boxList",
+              "uid": "cmOAL",
+              "name": "TODO List",
+              "order": 2,
+              "custom_styling": {
+                "height": {
+                  "min": {
+                    "val": 350.0,
+                    "unit": "px"
+                  },
+                  "type": "fit"
+                },
+                "width": {
+                  "type": "fit"
+                },
+                "layout": {
+                  "direction": "column"
+                },
+                "position": {
+                  "type": "auto",
+                  "auto": {
+                    "order": 2,
+                    "position": "center"
+                  }
+                }
+              },
+              "properties": {
+                "is_hidden": false,
+                "list_of_items": {
+                  "nodes": {
+                    "n_0": {
+                      "uid": "n_0",
+                      "name": "Get element",
+                      "type": "inline-entry.dbRead",
+                      "parameters": {
+                        "constraint": {
+                          "key": "assetType",
+                          "comparator": "=",
+                          "value": "todo"
+                        }
+                      }
+                    }
+                  },
+                  "connections": {}
+                }
+              },
+              "composite_key": [
+                "pages",
+                "cmNzt",
+                "cmNzv",
+                "cmOAL"
+              ],
+              "data": {
+                "items_list": {
+                  "name": "list of items",
+                  "uid": "items_list",
+                  "type": "list",
+                  "item_type": "object"
+                }
+              },
+              "children": {
+                "cmOAR": {
+                  "type": "box",
+                  "uid": "cmOAR",
+                  "name": "TODO Item",
+                  "order": 1,
+                  "custom_styling": {
+                    "layout": {
+                      "direction": "row",
+                      "column_gap": {
+                        "val": 20.0,
+                        "unit": "px"
+                      },
+                      "distribution": "between"
+                    },
+                    "position": {
+                      "type": "auto",
+                      "auto": {
+                        "order": 1,
+                        "position": "start"
+                      }
+                    }
+                  },
+                  "properties": {
+                    "is_hidden": false
+                  },
+                  "composite_key": [
+                    "pages",
+                    "cmNzt",
+                    "cmNzv",
+                    "cmOAL",
+                    "cmOAR"
+                  ],
+                  "style": "Group_default_group_",
+                  "children": {
+                    "cmOAe": {
+                      "type": "box",
+                      "uid": "cmOAe",
+                      "name": "item actions",
+                      "order": 3,
+                      "custom_styling": {
+                        "width": {
+                          "type": "fit"
+                        },
+                        "layout": {
+                          "direction": "row",
+                          "distribution": "center"
+                        },
+                        "position": {
+                          "type": "auto",
+                          "auto": {
+                            "order": 3,
+                            "position": "center"
+                          }
+                        }
+                      },
+                      "properties": {
+                        "is_hidden": false
+                      },
+                      "composite_key": [
+                        "pages",
+                        "cmNzt",
+                        "cmNzv",
+                        "cmOAL",
+                        "cmOAR",
+                        "cmOAe"
+                      ],
+                      "style": "Group_default_group_",
+                      "children": {
+                        "cmOAk": {
+                          "type": "image",
+                          "uid": "cmOAk",
+                          "name": "Icon A",
+                          "order": 1,
+                          "custom_styling": {
+                            "height": {
+                              "min": {
+                                "val": 30.0,
+                                "unit": "px"
+                              },
+                              "type": "fixed",
+                              "fixed": {
+                                "val": 30.0,
+                                "unit": "px"
+                              }
+                            },
+                            "width": {
+                              "min": {
+                                "val": 30.0,
+                                "unit": "px"
+                              },
+                              "type": "fixed",
+                              "fixed": {
+                                "val": 30.0,
+                                "unit": "px"
+                              }
+                            },
+                            "position": {
+                              "type": "auto",
+                              "auto": {
+                                "order": 1
+                              }
+                            },
+                            "icon": {
+                              "color": "black"
+                            }
+                          },
+                          "properties": {
+                            "is_hidden": false,
+                            "icon": {
+                              "type": "FontAwesome",
+                              "src": "save",
+                              "color": "black"
+                            }
+                          },
+                          "logic": {
+                            "save_item": {
+                              "name": "Update item",
+                              "uid": "save_item",
+                              "nodes": {
+                                "click_save": {
+                                  "uid": "click_save",
+                                  "name": "On press",
+                                  "type": "trigger.onClick"
+                                },
+                                "action_save": {
+                                  "uid": "action_save",
+                                  "name": "Update item in DB",
+                                  "type": "action.dbUpdate",
+                                  "parameters": {
+                                    "assetType": "todo",
+                                    "assetId": "@@{\"nodes\": {\"n_0\": {\"uid\": \"n_0\",\"name\": \"Get element\",\"type\": \"inline-entry.GetCurrentCellItem\"},\"n_1\": {\"uid\": \"n_1\",\"name\": \"'s value\",\"type\": \"inline-node.GetProperty\",\"parameters\": {\"target\": \"uid\"}}},\"connections\": {\"n_0\": {\"success\": {\"n_1\": {\"order\": 0,\"to\": \"n_1\",\"uid\": \"n_1\"}}}}}@@",
+                                    "data": {
+                                      "text": "@@{\"nodes\": {\"node_0\":{\"uid\":\"node_0\",\"name\":\"Get element\",\"type\":\"inline-entry.GetComponent\",\"parameters\":{\"target\": \"cmOBU\"}},\"node_1\":{\"uid\":\"node_1\",\"name\":\"'s value\",\"type\":\"inline-node.GetProperty\",\"parameters\":{\"target\": \"input_value\"}}}, \"connections\": {\"node_0\":{\"success\":{\"node_1\":{\"order\":0,\"to\":\"node_1\",\"uid\":\"node_1\"}}}}@@"
+                                    }
+                                  }
+                                }
+                              },
+                              "connections": {
+                                "click_save": {
+                                  "success": {
+                                    "action_save": {
+                                      "order": 0,
+                                      "to": "action_save",
+                                      "uid": "action_save"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "composite_key": [
+                            "pages",
+                            "cmNzt",
+                            "cmNzv",
+                            "cmOAL",
+                            "cmOAR",
+                            "cmOAe",
+                            "cmOAk"
+                          ]
+                        },
+                        "cmOBB": {
+                          "type": "image",
+                          "uid": "cmOBB",
+                          "name": "Icon B",
+                          "order": 2,
+                          "custom_styling": {
+                            "height": {
+                              "min": {
+                                "val": 30.0,
+                                "unit": "px"
+                              },
+                              "type": "fixed",
+                              "fixed": {
+                                "val": 30.0,
+                                "unit": "px"
+                              }
+                            },
+                            "width": {
+                              "min": {
+                                "val": 30.0,
+                                "unit": "px"
+                              },
+                              "type": "fixed",
+                              "fixed": {
+                                "val": 30.0,
+                                "unit": "px"
+                              }
+                            },
+                            "position": {
+                              "type": "auto",
+                              "auto": {
+                                "order": 2
+                              }
+                            },
+                            "icon": {
+                              "color": "black"
+                            }
+                          },
+                          "properties": {
+                            "is_hidden": false,
+                            "icon": {
+                              "type": "FontAwesome",
+                              "src": "close",
+                              "color": "black"
+                            }
+                          },
+                          "logic": {
+                            "delete_item": {
+                              "name": "Delete item",
+                              "uid": "delete_item",
+                              "nodes": {
+                                "click_delete": {
+                                  "uid": "click_delete",
+                                  "name": "On press",
+                                  "type": "trigger.onClick"
+                                },
+                                "action_delete": {
+                                  "uid": "action_delete",
+                                  "name": "Delete item in DB",
+                                  "type": "action.dbDelete",
+                                  "parameters": {
+                                    "assetType": "todo",
+                                    "assetId": "@@{\"nodes\": {\"n_0\": {\"uid\": \"n_0\",\"name\": \"Get element\",\"type\": \"inline-entry.GetCurrentCellItem\"},\"n_1\": {\"uid\": \"n_1\",\"name\": \"'s value\",\"type\": \"inline-node.GetProperty\",\"parameters\": {\"target\": \"uid\"}}},\"connections\": {\"n_0\": {\"success\": {\"n_1\": {\"order\": 0,\"to\": \"n_1\",\"uid\": \"n_1\"}}}}}@@"
+                                  }
+                                }
+                              },
+                              "connections": {
+                                "click_delete": {
+                                  "success": {
+                                    "action_delete": {
+                                      "order": 0,
+                                      "to": "action_delete",
+                                      "uid": "action_delete"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "composite_key": [
+                            "pages",
+                            "cmNzt",
+                            "cmNzv",
+                            "cmOAL",
+                            "cmOAR",
+                            "cmOAe",
+                            "cmOBB"
+                          ]
+                        }
+                      }
+                    },
+                    "cmOBU": {
+                      "type": "input",
+                      "uid": "cmOBU",
+                      "name": "Input Item text",
+                      "order": 1,
+                      "custom_styling": {
+                        "height": {
+                          "min": {
+                            "val": 48.0,
+                            "unit": "px"
+                          },
+                          "type": "fixed",
+                          "fixed": {
+                            "val": 48.0,
+                            "unit": "px"
+                          }
+                        },
+                        "width": {
+                          "min": {
+                            "val": 250.0,
+                            "unit": "px"
+                          },
+                          "type": "fixed",
+                          "fixed": {
+                            "val": 250.0,
+                            "unit": "px"
+                          }
+                        },
+                        "position": {
+                          "type": "auto",
+                          "auto": {
+                            "order": 1
+                          }
+                        }
+                      },
+                      "properties": {
+                        "is_hidden": false
+                      },
+                      "composite_key": [
+                        "pages",
+                        "cmNzt",
+                        "cmNzv",
+                        "cmOAL",
+                        "cmOAR",
+                        "cmOBU"
+                      ],
+                      "data": {
+                        "input_value": {
+                          "name": "Input value",
+                          "type": "text",
+                          "default": "",
+                          "uid": "input_value"
+                        },
+                        "input_is_valid": {
+                          "name": "Input is valid",
+                          "type": "boolean",
+                          "default": false,
+                          "uid": "input_is_valid"
+                        }
+                      },
+                      "style": "Input_standard_input_"
+                    }
+                  }
+                }
+              }
+            },
+            "cmOBH": {
+              "type": "box",
+              "uid": "cmOBH",
+              "name": "NEW TODO Item",
+              "order": 3,
+              "custom_styling": {
+                "width": {
+                  "type": "fit"
+                },
+                "layout": {
+                  "direction": "row",
+                  "column_gap": {
+                    "val": 20.0,
+                    "unit": "px"
+                  },
+                  "distribution": "center"
+                },
+                "position": {
+                  "type": "auto",
+                  "auto": {
+                    "order": 3,
+                    "position": "center"
+                  }
+                }
+              },
+              "properties": {
+                "is_hidden": false
+              },
+              "composite_key": [
+                "pages",
+                "cmNzt",
+                "cmNzv",
+                "cmOBH"
+              ],
+              "style": "Group_default_group_",
+              "children": {
+                "cmOBN": {
+                  "type": "box",
+                  "uid": "cmOBN",
+                  "name": "item actions",
+                  "order": 3,
+                  "custom_styling": {
+                    "width": {
+                      "type": "fit"
+                    },
+                    "layout": {
+                      "direction": "row",
+                      "distribution": "center"
+                    },
+                    "position": {
+                      "type": "auto",
+                      "auto": {
+                        "order": 3,
+                        "position": "center"
+                      }
+                    }
+                  },
+                  "properties": {
+                    "is_hidden": false
+                  },
+                  "composite_key": [
+                    "pages",
+                    "cmNzt",
+                    "cmNzv",
+                    "cmOBH",
+                    "cmOBN"
+                  ],
+                  "style": "Group_default_group_",
+                  "children": {
+                    "cmOBP": {
+                      "type": "image",
+                      "uid": "cmOBP",
+                      "name": "Icon C",
+                      "order": 2,
+                      "custom_styling": {
+                        "height": {
+                          "min": {
+                            "val": 30.0,
+                            "unit": "px"
+                          },
+                          "type": "fixed",
+                          "fixed": {
+                            "val": 30.0,
+                            "unit": "px"
+                          }
+                        },
+                        "width": {
+                          "min": {
+                            "val": 30.0,
+                            "unit": "px"
+                          },
+                          "type": "fixed",
+                          "fixed": {
+                            "val": 30.0,
+                            "unit": "px"
+                          }
+                        },
+                        "position": {
+                          "type": "auto",
+                          "auto": {
+                            "order": 2
+                          }
+                        },
+                        "icon": {
+                          "color": "black"
+                        }
+                      },
+                      "properties": {
+                        "is_hidden": false,
+                        "icon": {
+                          "type": "FontAwesome",
+                          "src": "plus-square",
+                          "color": "black"
+                        }
+                      },
+                      "logic": {
+                        "add_item": {
+                          "name": "Add item",
+                          "uid": "add_item",
+                          "nodes": {
+                            "click_add": {
+                              "uid": "click_add",
+                              "name": "On press",
+                              "type": "trigger.onClick"
+                            },
+                            "action_add": {
+                              "uid": "action_add",
+                              "name": "Create item in DB",
+                              "type": "action.dbCreate",
+                              "parameters": {
+                                "assetType": "email",
+                                "data": {
+                                  "email": "@@{\"nodes\": {\"node_0\":{\"uid\":\"node_0\",\"name\":\"Get element\",\"type\":\"inline-entry.GetComponent\",\"parameters\":{\"target\": \"cmOBg\"}},\"node_1\":{\"uid\":\"node_1\",\"name\":\"'s value\",\"type\":\"inline-node.GetProperty\",\"parameters\":{\"target\": \"input_value\"}}}, \"connections\": {\"node_0\":{\"success\":{\"node_1\":{\"order\":0,\"to\":\"node_1\",\"uid\":\"node_1\"}}}}@@"
+                                }
+                              }
+                            }
+                          },
+                          "connections": {
+                            "click_add": {
+                              "success": {
+                                "action_add": {
+                                  "order": 0,
+                                  "to": "action_add",
+                                  "uid": "action_add"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "composite_key": [
+                        "pages",
+                        "cmNzt",
+                        "cmNzv",
+                        "cmOBH",
+                        "cmOBN",
+                        "cmOBP"
+                      ]
+                    }
+                  }
+                },
+                "cmOBg": {
+                  "type": "input",
+                  "uid": "cmOBg",
+                  "name": "Input New item",
+                  "order": 2,
+                  "custom_styling": {
+                    "height": {
+                      "min": {
+                        "val": 48.0,
+                        "unit": "px"
+                      },
+                      "type": "fixed",
+                      "fixed": {
+                        "val": 48.0,
+                        "unit": "px"
+                      }
+                    },
+                    "width": {
+                      "min": {
+                        "val": 250.0,
+                        "unit": "px"
+                      },
+                      "type": "fixed",
+                      "fixed": {
+                        "val": 250.0,
+                        "unit": "px"
+                      }
+                    },
+                    "position": {
+                      "type": "auto",
+                      "auto": {
+                        "order": 2
+                      }
+                    }
+                  },
+                  "properties": {
+                    "is_hidden": false
+                  },
+                  "composite_key": [
+                    "pages",
+                    "cmNzt",
+                    "cmNzv",
+                    "cmOBH",
+                    "cmOBg"
+                  ],
+                  "data": {
+                    "input_value": {
+                      "name": "Input value",
+                      "type": "text",
+                      "default": "",
+                      "uid": "input_value"
+                    },
+                    "input_is_valid": {
+                      "name": "Input is valid",
+                      "type": "boolean",
+                      "default": false,
+                      "uid": "input_is_valid"
+                    }
+                  },
+                  "style": "Input_standard_input_"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "library": {},
+  "data_model": {
+    "user": {
+      "name": "User",
+      "id": "user",
+      "type": "object",
+      "named_properties": {
+        "name_text": {
+          "name": "Name",
+          "id": "name_text",
+          "type": "text"
+        }
+      }
+    },
+    "todo": {
+      "name": "Todo",
+      "id": "todo",
+      "type": "object",
+      "named_properties": {
+        "text": {
+          "name": "Text",
+          "id": "text",
+          "type": "text"
+        }
+      }
+    }
+  }
+}
